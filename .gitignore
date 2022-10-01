@@ -1,0 +1,6 @@
+*.iml
+.idea
+public/
+.DS_Store
+pythonJSON/
+resources/
