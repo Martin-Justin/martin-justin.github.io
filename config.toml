@@ -1,10 +1,12 @@
 title = "Martin Justin"
+Description = "Martin Justin's portfolio website."
 baseURL = "https://example.com"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = ""  # add your tracking id
+enableRobotsTXT = true
 
 [params]
   author = "Martin Justin"

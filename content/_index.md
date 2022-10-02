@@ -1,5 +1,6 @@
 +++
-title = "About"
+title = "Martin Justin"
+description = "Short extract about Martin Justin."
 +++
 
 ## About Me
