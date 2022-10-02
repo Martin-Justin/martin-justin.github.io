@@ -3,7 +3,7 @@ title = "Martin Justin"
 description = "Martin Justin's portfolio website."
 +++
 
-# O meni
+# About me
 
 {{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
 
