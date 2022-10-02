@@ -5,6 +5,10 @@ description = "List of published reviews and essays by Martin Justin."
 
 ### knjižne recenzije
 
+[september 2022] Anja Radaljac: Punčica (Literature)
+
+[avgust 2022] Aleš Berger: Vicmaher (Literatura)
+
 [junij 2022] Ana Schnabl: Plima (Literatura)
 
 [maj 2022] René Descartes: Strasti duše ([AirBeletrina](http://www.airbeletrina.si/clanek/descartesove-strasti))
@@ -79,6 +83,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 ### filmske recenzije
 
+[julij 2022] Spiderhead (Joseph Kosinski, 2022) ([Koridor](https://koridor-ku.si/filmtv/spiderhead/))
+
 [marec 2022] Strong Female Lead (Tosca Looby, 2021) ([Koridor](https://koridor-ku.si/filmtv/24-fdf-odlocna-liderka-strong-female-lead/))
 
 [marec 2022] Nuclear Family (Travis in Erin Wilkerson, 2022) ([Koridor](https://koridor-ku.si/filmtv/24-fdf-nuklearna-druzina-nuclear-family/))
@@ -108,6 +114,8 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
 ### eseji
+
+[september 2022] Najlepše antične pripovedke ([Airbeletrina](http://www.airbeletrina.si/clanek/najlepse-anticne-pripovedke))
 
 [december 2021] Kognitivna (foto)pristranskost: fotografija in resničnost ([Membrana](https://www.membrana.si/esej/kognitivna-fotopristranskost/))
 
