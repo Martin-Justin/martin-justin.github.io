@@ -12,6 +12,6 @@ Currently, I’m working on my thesis on epistemic disagreement in scientific co
 Here, you can find my CV. I also have [academia.edu](https://uni-aas.academia.edu/MartinJustin) and [PhilPeople](https://philpeople.org/profiles/martin-justin) pages.
 
 I also work as a freelance writer and critic. 
-A list of my published texts, most of them in Slovene, can be found here. 
+A list of my published texts, most of them in Slovene, can be found [here](/writing). 
 
 Feel free to contact me.
