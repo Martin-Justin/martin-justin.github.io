@@ -1,9 +1,9 @@
 +++
 title = "Martin Justin"
-description = "Short extract about Martin Justin."
+description = "Martin Justin's portfolio website."
 +++
 
-## About Me
+# O meni
 
 {{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
 

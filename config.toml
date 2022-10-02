@@ -1,5 +1,5 @@
 title = "Martin Justin"
-Description = "Martin Justin's portfolio website."
+description = "Martin Justin's portfolio website."
 baseURL = "https://martin-justin.github.io"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
@@ -15,7 +15,6 @@ enableRobotsTXT = true
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
     text = "By Martin Justin"
-    url = "https://github.com/ojroques/hugo-researcher"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     fontSize = "14pt"

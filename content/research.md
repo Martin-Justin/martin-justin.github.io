@@ -3,7 +3,7 @@ title = "Martin Justin | Research"
 description = "Published academic papers and articles."
 +++
 
-### Recent and forthcoming publications
+# Recent and forthcoming publications
 
 - Problem neidentitete kot problem okoljske etike, Analiza (v tisku)
 
@@ -11,7 +11,7 @@ description = "Published academic papers and articles."
 
 You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
 
-### Recent talks
+# Recent talks
 
 [October 2022] Opacity and understanding in artificial neural networks: a philosophical perspective. Slovenian Cognitive Science Conference 2022. Institut “Jožef Štefan”, Ljubljana.
 
@@ -19,7 +19,7 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 [September 2021] The Concept of Gestalt in Merleau-Ponty’s Philosopy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
 
-### Other
+# Other
 
 I also co-authored some papers in corpus linguistic:
 

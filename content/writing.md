@@ -3,7 +3,7 @@ title = "Martin Justin | Writing"
 description = "List of published reviews and essays by Martin Justin."
 +++
 
-### knjižne recenzije
+# knjižne recenzije
 
 [september 2022] Anja Radaljac: Punčica (Literature)
 
@@ -81,7 +81,7 @@ description = "List of published reviews and essays by Martin Justin."
 
 [februar 2018] Stanisław Lem: Gospodov glas ([Koridor](http://koridor-ku.si/literatura/stanislaw-lem-gospodov-glas/))
 
-### filmske recenzije
+# filmske recenzije
 
 [julij 2022] Spiderhead (Joseph Kosinski, 2022) ([Koridor](https://koridor-ku.si/filmtv/spiderhead/))
 
@@ -113,7 +113,7 @@ description = "List of published reviews and essays by Martin Justin."
 
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
-### eseji
+# eseji
 
 [september 2022] Najlepše antične pripovedke ([Airbeletrina](http://www.airbeletrina.si/clanek/najlepse-anticne-pripovedke))
 
@@ -123,7 +123,7 @@ description = "List of published reviews and essays by Martin Justin."
 
 [oktober 2019] O položaju molka in odvisnost, v katerega so potisnjene ženske ([AirBeletrina](http://www.airbeletrina.si/clanek/o-polozaju-molka-in-odvisnosti-v-katerega-so-potisnjene-zenske))
 
-### intervjuji & reportaže
+# intervjuji & reportaže
 
 [december 2021] Intervju s pisateljem Davorinom Lenkom ([ludliteratura.si](https://www.ludliteratura.si/intervju/na-neki-tocki-sem-tako-zelel-ponotranjiti-to-patoloskost/))
 
