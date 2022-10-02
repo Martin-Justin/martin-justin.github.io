@@ -3,7 +3,7 @@
 Source code for Martin Justin's website portfolio as well as deployed website accessible on 
 https://martin-justin.github.io
 
-![Deployment status](https://github.com/Martin-Justin/martin-justin.github.io/actions/workflows/pages.yml/badge.svg)
+[![pages-build-deployment](https://github.com/Martin-Justin/martin-justin.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Martin-Justin/martin-justin.github.io/actions/workflows/pages/pages-build-deployment)
 
 ## Documentation
 
