@@ -1,9 +1,9 @@
 +++
 title = "Martin Justin"
-description = "Martin Justin's portfolio website."
+description = "I'm a master's student of philosophy at University of Ljubljana. My research interests are in philosophy of science and applied philosophy."
 +++
 
-# About me
+## About me
 
 {{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
 

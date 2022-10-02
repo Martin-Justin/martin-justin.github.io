@@ -1,5 +1,5 @@
 title = "Martin Justin"
-description = "Martin Justin's portfolio website."
+description = "A list of Martin Justin's published academic articles, literature reviews and contact information."
 baseURL = "https://martin-justin.github.io"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
