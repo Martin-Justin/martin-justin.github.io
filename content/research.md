@@ -7,9 +7,9 @@ description = "Published academic papers and articles."
 
 - Problem neidentitete kot problem okoljske etike, Analiza (v tisku)
 
-- Is System 2 uniquely human, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
+- Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
 
-You can find preprints of my philosophical paper on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
+You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
 
 ### Recent talks
 
@@ -25,4 +25,4 @@ I also co-authored some papers in corpus linguistic:
 
 - Klasifikacijska evalvacija strojno izluščenih protipomenskih parov. Zbornik konference Jezikovne tehnologije in digitalna humanistika (2022, s Tino Mozetič, Miho Severom in Jasmino Pegan). [Link](https://nl.ijs.si/jtdh22/pdf/JTDH2022_Proceedings_intro.pdf)
 
-- Rana ura, slovenskih fantov grob: analiza frazeoloških prenovitev v spletni slovenščini, Zbornik konference Slovenščina na spletu in v novih medijih (2015, z Polono Gantar in Nejcem Hircijem). [Link](https://nl.ijs.si/janes/wp-content/uploads/2015/11/Konferenca2015.pdf)
+- Rana ura, slovenskih fantov grob: analiza frazeoloških prenovitev v spletni slovenščini, Zbornik konference Slovenščina na spletu in v novih medijih (2015, s Polono Gantar in Nejcem Hircijem). [Link](https://nl.ijs.si/janes/wp-content/uploads/2015/11/Konferenca2015.pdf)
