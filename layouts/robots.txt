@@ -1,4 +1,5 @@
-User-agent: *
+User-Agent: *
+Sitemap: sitemap.xml
 {{ range .Pages }}
-Disallow: {{ .RelPermalink }}
+Allow: {{ .RelPermalink }}
 {{ end }}
