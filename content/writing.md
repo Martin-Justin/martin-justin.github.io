@@ -5,7 +5,9 @@ description = "List of published reviews and essays by Martin Justin."
 
 ## knjižne recenzije
 
-[september 2022] Nominiranci za nagrado Booker ([Airbeletrina](http://www.airbeletrina.si/clanek/o-cem-govorijo-romani-ki-se-potegujejo-za-nagrado-booker))
+[oktober 2022] Julija Lukovnjak: Imaginarni svetovi Edgarja Kaosa (Literatura)
+
+[oktober 2022] Nominiranci za nagrado Booker ([Airbeletrina](http://www.airbeletrina.si/clanek/o-cem-govorijo-romani-ki-se-potegujejo-za-nagrado-booker))
 
 [september 2022] Anja Radaljac: Punčica (Literature)
 
