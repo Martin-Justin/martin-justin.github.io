@@ -13,11 +13,13 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 ## Recent talks
 
-[October 2022] Opacity and understanding in artificial neural networks: a philosophical perspective. Slovenian Cognitive Science Conference 2022. Institut “Jožef Štefan”, Ljubljana.
+- October 2022: Is explainability necessary for trustworthiness? Ethical Challenges of Artificial Intelligence and New Technologies, University of Ljubljana.
 
-[December 2021] Mill and Whewell on discovery and proof of scientific theories. The 8th TMU Student Philosophy Conference. Tarbiat Modares University, Iran (given online).
+- October 2022: Opacity and understanding in artificial neural networks: a philosophical perspective. Slovenian Cognitive Science Conference 2022. Institut “Jožef Štefan”, Ljubljana.
 
-[September 2021] The Concept of Gestalt in Merleau-Ponty’s Philosopy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
+- December 2021: Mill and Whewell on discovery and proof of scientific theories. The 8th TMU Student Philosophy Conference. Tarbiat Modares University, Iran (given online).
+
+- September 2021: The Concept of Gestalt in Merleau-Ponty’s Philosopy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
 
 ## Other
 
