@@ -1,5 +1,5 @@
 User-Agent: *
-Sitemap: sitemap.xml
+Sitemap: https://martin-justin.github.io/sitemap.xml
 {{ range .Pages }}
 Allow: {{ .RelPermalink }}
 {{ end }}
