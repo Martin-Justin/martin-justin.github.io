@@ -46,3 +46,8 @@ enableRobotsTXT = true
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
+	
+[sitemap]
+  changefreq = 'yearly'
+  filename = 'sitemap.xml'
+  priority = 0.5
