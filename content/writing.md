@@ -129,7 +129,7 @@ description = "List of published reviews and essays by Martin Justin."
 
 # intervjuji & reportaže
 
-[november 2022] Reportaža s 10. prepišnega uredništva ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/porocilo/ker-se-spet-zanimamo-za-avtorje_ice/))
+[november 2022] Reportaža z 10. prepišnega uredništva ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/porocilo/ker-se-spet-zanimamo-za-avtorje_ice/))
 
 [december 2021] Intervju s pisateljem Davorinom Lenkom ([ludliteratura.si](https://www.ludliteratura.si/intervju/na-neki-tocki-sem-tako-zelel-ponotranjiti-to-patoloskost/))
 
