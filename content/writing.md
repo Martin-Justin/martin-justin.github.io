@@ -129,6 +129,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # intervjuji & reportaže
 
+[november 2022] Reportaža s 10. prepišnega uredništva ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/porocilo/ker-se-spet-zanimamo-za-avtorje_ice/))
+
 [december 2021] Intervju s pisateljem Davorinom Lenkom ([ludliteratura.si](https://www.ludliteratura.si/intervju/na-neki-tocki-sem-tako-zelel-ponotranjiti-to-patoloskost/))
 
 [oktober 2021] Reportaža s pogovora med Slavojem Žižkom in Janisom Varufakisom ([AirBeletrina](http://www.airbeletrina.si/clanek/kapitalizem-je-propadel-prislo-je-nekaj-hujsega))
