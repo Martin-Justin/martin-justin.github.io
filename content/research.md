@@ -13,7 +13,9 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 ## Recent talks
 
-- October 2022: Is explainability necessary for trustworthiness? Ethical Challenges of Artificial Intelligence and New Technologies, University of Ljubljana.
+- November 2022: Environmental Ethics and Identity Problem. Philosophy Students' Symposium 2022, University of Maribor, Maribor (given online).
+
+- October 2022: Is explainability necessary for trustworthiness? Ethical Challenges of Artificial Intelligence and New Technologies, University of Ljubljana, Ljubljana.
 
 - October 2022: Opacity and understanding in artificial neural networks: a philosophical perspective. Slovenian Cognitive Science Conference 2022. Institut “Jožef Štefan”, Ljubljana.
 
