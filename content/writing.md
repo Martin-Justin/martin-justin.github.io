@@ -87,6 +87,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # filmske recenzije
 
+[november 2022] She Said (Maria Schrader, 2022) ([Koridor](https://koridor-ku.si/filmtv/33-liffe-ona-ve-she-said/))
+
 [julij 2022] Spiderhead (Joseph Kosinski, 2022) ([Koridor](https://koridor-ku.si/filmtv/spiderhead/))
 
 [marec 2022] Strong Female Lead (Tosca Looby, 2021) ([Koridor](https://koridor-ku.si/filmtv/24-fdf-odlocna-liderka-strong-female-lead/))
