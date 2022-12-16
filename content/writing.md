@@ -121,6 +121,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # eseji
 
+[december 2022] Konec lastnine? ([Disenz](https://www.disenz.net/konec-lastnine/))
+
 [september 2022] Najlepše antične pripovedke ([Airbeletrina](http://www.airbeletrina.si/clanek/najlepse-anticne-pripovedke))
 
 [december 2021] Kognitivna (foto)pristranskost: fotografija in resničnost ([Membrana](https://www.membrana.si/esej/kognitivna-fotopristranskost/))
