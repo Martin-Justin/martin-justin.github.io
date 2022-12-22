@@ -5,15 +5,17 @@ description = "List of published reviews and essays by Martin Justin."
 
 ## knjižne recenzije
 
-[oktober 2022] Julija Lukovnjak: Imaginarni svetovi Edgarja Kaosa (Literatura)
+[december 2022] Irena Svetek: Beli volk
+
+[oktober 2022] Julija Lukovnjak: Imaginarni svetovi Edgarja Kaosa ([Literatura](https://www.ludliteratura.si/revija/376/))
 
 [oktober 2022] Nominiranci za nagrado Booker ([Airbeletrina](http://www.airbeletrina.si/clanek/o-cem-govorijo-romani-ki-se-potegujejo-za-nagrado-booker))
 
-[september 2022] Anja Radaljac: Punčica (Literature)
+[september 2022] Anja Radaljac: Punčica ([Literature](https://www.ludliteratura.si/revija/375/))
 
-[avgust 2022] Aleš Berger: Vicmaher (Literatura)
+[avgust 2022] Aleš Berger: Vicmaher ([Literatura](https://www.ludliteratura.si/revija/374/))
 
-[junij 2022] Ana Schnabl: Plima (Literatura)
+[junij 2022] Ana Schnabl: Plima ([Literatura](https://www.ludliteratura.si/revija/372-373/))
 
 [maj 2022] René Descartes: Strasti duše ([AirBeletrina](http://www.airbeletrina.si/clanek/descartesove-strasti))
 
@@ -21,21 +23,21 @@ description = "List of published reviews and essays by Martin Justin."
 
 [april 2022] Karine Tuil: Človeške stvari ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/o-senzacionalisticnih-blurbih/))
 
-[april 2022] Carlos Pascual: Nezakonita melanholija (Literatura)
+[april 2022] Carlos Pascual: Nezakonita melanholija ([Literatura](https://www.ludliteratura.si/revija/370/))
 
-[marec 2022] Evald Flisar: Nevidni otrok (Literatura)
+[marec 2022] Evald Flisar: Nevidni otrok ([Literatura](https://www.ludliteratura.si/revija/369/))
 
 [marec 2022] Kevin Barry: Mesto Bohane ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/dogodek-v-mestu-bohane/))
 
-[februar 2022] Franjo H. Naji: Ringlšpil (Literatura)
+[februar 2022] Franjo H. Naji: Ringlšpil ([Literatura](https://www.ludliteratura.si/revija/367-368/))
 
 [oktober 2021] Matthew Walker: Zakaj spimo ([AirBeletrina](http://www.airbeletrina.si/clanek/namisljene-epidemije-in-izginuli-stolpci))
 
 [oktober 2021] Virgilio Pinera: Hladne zgodbe ([ludliteratura.si](https://www.ludliteratura.si/imena-avtorjev/martin-justin/)) 
 
-[oktober 2021] Irena Svetek: Rdeča kapica (Literatura)
+[oktober 2021] Irena Svetek: Rdeča kapica ([Literatura](https://www.ludliteratura.si/revija/364/))
 
-[avgust 2021] Aljaž Krivec: Sedmo nadstropje (Literatura)
+[avgust 2021] Aljaž Krivec: Sedmo nadstropje ([Literatura](https://www.ludliteratura.si/revija/362/))
 
 [maj 2021] Claudia Durastanti: Tujka ([AirBeletrina](http://www.airbeletrina.si/clanek/tehnologija-ki-razkriva-svet)) 
 
