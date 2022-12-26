@@ -5,7 +5,7 @@ description = "List of published reviews and essays by Martin Justin."
 
 ## knjižne recenzije
 
-[december 2022] Irena Svetek: Beli volk
+[december 2022] Irena Svetek: Beli volk ([Literatura](https://www.ludliteratura.si/revija/))
 
 [oktober 2022] Julija Lukovnjak: Imaginarni svetovi Edgarja Kaosa ([Literatura](https://www.ludliteratura.si/revija/376/))
 
@@ -145,10 +145,10 @@ description = "List of published reviews and essays by Martin Justin."
 
 [julij 2021] Intervju z umetnico Polonco Lovšin (Outsider)
 
-[junij 2020] Reportaža s 22. Festivala dokumentarnega filma ([Koridor](https://koridor-ku.si/filmtv/22-festival-dokumentarnega-filma-reportaza/#))
+[junij 2020] Reportaža z 22. Festivala dokumentarnega filma ([Koridor](https://koridor-ku.si/filmtv/22-festival-dokumentarnega-filma-reportaza/#))
 
 [avgust 2019] Reportaža s 25. Sarajevskega filmskega festivala ([AirBeletrina](http://www.airbeletrina.si/clanek/tekmovanje-za-srce-sarajeva))
 
 [maj 2018] Intervju s pesnico Nino Medved ([Koridor](https://koridor-ku.si/literatura/nina-medved-vse-je-treba-tvegati/))
 
-[marec 2018] Reportaža s pogovora z Terryjem Eagletonom ([Koridor](https://koridor-ku.si/literatura/fabula-pred-fabulo-terry-eagleton-28-2-2018-klub-cd/))
+[marec 2018] Reportaža s pogovora s Terryjem Eagletonom ([Koridor](https://koridor-ku.si/literatura/fabula-pred-fabulo-terry-eagleton-28-2-2018-klub-cd/))
