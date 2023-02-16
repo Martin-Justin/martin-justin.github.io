@@ -3,7 +3,7 @@ title = "Martin Justin | Writing"
 description = "List of published reviews and essays by Martin Justin."
 +++
 
-## knjižne recenzije
+# knjižne recenzije
 
 [december 2022] Irena Svetek: Beli volk ([Literatura](https://www.ludliteratura.si/revija/))
 
@@ -132,6 +132,10 @@ description = "List of published reviews and essays by Martin Justin."
 [december 2021] Nenavadna znanost kvarnikov ([AirBeletrina](http://www.airbeletrina.si/clanek/nenavadna-znanost-kvarnikov))
 
 [oktober 2019] O položaju molka in odvisnost, v katerega so potisnjene ženske ([AirBeletrina](http://www.airbeletrina.si/clanek/o-polozaju-molka-in-odvisnosti-v-katerega-so-potisnjene-zenske))
+
+# kolumne
+
+[februar 2023] ChatGPT in globalni kapitalizem ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
 
 # intervjuji & reportaže
 
