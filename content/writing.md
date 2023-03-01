@@ -5,7 +5,9 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
-[december 2022] Irena Svetek: Beli volk ([Literatura](https://www.ludliteratura.si/revija/))
+[februar 2023] Tina Vrščaj: Na Klancu ([Literatura](https://www.ludliteratura.si/revija/379-380/))
+
+[december 2022] Irena Svetek: Beli volk ([Literatura](https://www.ludliteratura.si/revija/377-378/))
 
 [oktober 2022] Julija Lukovnjak: Imaginarni svetovi Edgarja Kaosa ([Literatura](https://www.ludliteratura.si/revija/376/))
 
@@ -122,6 +124,8 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
 # eseji
+
+[februar 2023] Murakami, nekaj let pozneje ([AirBeletrina](http://www.airbeletrina.si/clanek/murakami-nekaj-let-pozneje))
 
 [december 2022] Konec lastnine? ([Disenz](https://www.disenz.net/konec-lastnine/))
 
