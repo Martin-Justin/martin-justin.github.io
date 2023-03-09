@@ -137,6 +137,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 [oktober 2019] O položaju molka in odvisnost, v katerega so potisnjene ženske ([AirBeletrina](http://www.airbeletrina.si/clanek/o-polozaju-molka-in-odvisnosti-v-katerega-so-potisnjene-zenske))
 
+[junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
+
 # kolumne
 
 [februar 2023] ChatGPT in globalni kapitalizem ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
