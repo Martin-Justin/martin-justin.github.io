@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[marec 2023] László Krasznahorkai: Satanov tango ([AirBeletrina](https://www.airbeletrina.si/clanek/anatomija-razpadanja))
+
 [februar 2023] Tina Vrščaj: Na Klancu ([Literatura](https://www.ludliteratura.si/revija/379-380/))
 
 [december 2022] Irena Svetek: Beli volk ([Literatura](https://www.ludliteratura.si/revija/377-378/))
@@ -140,6 +142,8 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
 
 # kolumne
+
+[marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
 
 [februar 2023] ChatGPT in globalni kapitalizem ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
 
