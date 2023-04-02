@@ -127,6 +127,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # eseji
 
+[marec 2023] Bodimo civilizirani ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/knjigogled/bodimo-civilizirani/))
+
 [februar 2023] Murakami, nekaj let pozneje ([AirBeletrina](http://www.airbeletrina.si/clanek/murakami-nekaj-let-pozneje))
 
 [december 2022] Konec lastnine? ([Disenz](https://www.disenz.net/konec-lastnine/))
