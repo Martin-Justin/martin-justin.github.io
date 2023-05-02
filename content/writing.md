@@ -147,6 +147,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # kolumne
 
+[april 2023] Smrt discipline ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/smrt-discipline/))
+
 [marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
 
 [februar 2023] ChatGPT in globalni kapitalizem ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
