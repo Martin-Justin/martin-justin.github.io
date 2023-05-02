@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[april 2023] Orlando Uršič: Krušni oče ([Literatura](https://www.ludliteratura.si/knjigarna/revije/382/))
+
 [marec 2023] László Krasznahorkai: Satanov tango ([AirBeletrina](https://www.airbeletrina.si/clanek/anatomija-razpadanja))
 
 [februar 2023] Tina Vrščaj: Na Klancu ([Literatura](https://www.ludliteratura.si/revija/379-380/))
