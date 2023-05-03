@@ -1,7 +1,7 @@
 # Martin Justin Web portfolio
 
 Source code for Martin Justin's website portfolio as well as deployed website accessible on 
-https://martin-justin.github.io
+https://martin-justin.github.io. The site uses [Researcher theme](https://github.com/ojroques/hugo-researcher/tree/cd2233558f3ac4c552bd2d6f408c381bda26974b) for Hugo, made by Olivier Roques.
 
 [![pages-build-deployment](https://github.com/Martin-Justin/martin-justin.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Martin-Justin/martin-justin.github.io/actions/workflows/pages/pages-build-deployment)
 
