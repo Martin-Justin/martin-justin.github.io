@@ -147,6 +147,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # kolumne
 
+[maj 2023] Zakaj še vedno gledam YouTube ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/zakaj-se-vedno-gledam-youtube/))
+
 [april 2023] Smrt discipline ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/smrt-discipline/))
 
 [marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
