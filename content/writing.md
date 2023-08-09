@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[maj 2023] Anja Mugerli: Pričakovanja ([Literatura](https://www.ludliteratura.si/knjigarna/revije/383/))
+
 [april 2023] Orlando Uršič: Krušni oče ([Literatura](https://www.ludliteratura.si/knjigarna/revije/382/))
 
 [marec 2023] László Krasznahorkai: Satanov tango ([AirBeletrina](https://www.airbeletrina.si/clanek/anatomija-razpadanja))
@@ -147,15 +149,23 @@ description = "List of published reviews and essays by Martin Justin."
 
 # kolumne
 
-[maj 2023] Zakaj še vedno gledam YouTube ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/zakaj-se-vedno-gledam-youtube/))
+[avgust 2023] Kantovo umazano perilo ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/kantovo-umazano-perilo/))
 
-[april 2023] Smrt discipline ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/smrt-discipline/))
+[julij 2023] Krize drugih ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/krize-drugih/))
 
-[marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
+[junij 2023] Deset grafov o slovenskem žanru ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/deset-grafov-o-slovenskem-zanru/))
 
-[februar 2023] ChatGPT in globalni kapitalizem ([Ludliteratura](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
+[maj 2023] Zakaj še vedno gledam YouTube ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/zakaj-se-vedno-gledam-youtube/))
+
+[april 2023] Smrt discipline ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/smrt-discipline/))
+
+[marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
+
+[februar 2023] ChatGPT in globalni kapitalizem ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
 
 # intervjuji & reportaže
+
+[junij 2023] Pogovor z Olgo Markič o zgodovini umetne inteligence ([ludliteratura.si](https://www.ludliteratura.si/intervju/raziskovanje-umetne-inteligence-je-bilo-vedno-zelo-interdisciplinarno/))
 
 [januar 2023] Reportaža z razstave "Useless Bodies", Elmgreen & Dragset, Fundazione Prada ([Membrana](https://www.membrana.si/recenzija/odvecna-telesa/))
 
