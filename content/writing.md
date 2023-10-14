@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[avgust 2023] Mirt Komel: Akiles ([Literatura](https://www.ludliteratura.si/knjigarna/revije/386/))
+
 [maj 2023] Anja Mugerli: Pričakovanja ([Literatura](https://www.ludliteratura.si/knjigarna/revije/383/))
 
 [april 2023] Orlando Uršič: Krušni oče ([Literatura](https://www.ludliteratura.si/knjigarna/revije/382/))
@@ -131,6 +133,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # eseji
 
+[september 2023] Misleča smetana ([AirBeletrina](https://airbeletrina.si/misleca-smetana/))
+
 [marec 2023] Bodimo civilizirani ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/knjigogled/bodimo-civilizirani/))
 
 [februar 2023] Murakami, nekaj let pozneje ([AirBeletrina](http://www.airbeletrina.si/clanek/murakami-nekaj-let-pozneje))
@@ -148,6 +152,10 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
 
 # kolumne
+
+[oktober 2023] V iskanju knjige leta ali Bochum book haul ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/v-iskanju-knjige-leta-ali-bochum-book-haul/))
+
+[september 2023] Korelacija in vzročnost v medijih ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/korelacija-in-vzrocnost-v-medijih/))
 
 [avgust 2023] Kantovo umazano perilo ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/kantovo-umazano-perilo/))
 
