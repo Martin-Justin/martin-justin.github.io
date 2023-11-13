@@ -5,6 +5,10 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[november 2023] Svetlana Slapšak: Grožnja in strah ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/lumpen-nacifasizem-kratkega-dometa/))
+
+[oktober 2023] Boštjan Videmšek: Vojni dnevnik ([Literatura](https://www.ludliteratura.si/knjigarna/revije/388/))
+
 [avgust 2023] Mirt Komel: Akiles ([Literatura](https://www.ludliteratura.si/knjigarna/revije/386/))
 
 [maj 2023] Anja Mugerli: Pričakovanja ([Literatura](https://www.ludliteratura.si/knjigarna/revije/383/))
@@ -98,6 +102,8 @@ description = "List of published reviews and essays by Martin Justin."
 [februar 2018] Stanisław Lem: Gospodov glas ([Koridor](http://koridor-ku.si/literatura/stanislaw-lem-gospodov-glas/))
 
 # filmske recenzije
+
+[avgust 2023] Non-aligned: Scenes from the Labudović Reels (Mila Turajlić, 2023) ([ludliteratura.si](https://www.ludliteratura.si/refleksija/skoraj-magicno/))
 
 [november 2022] She Said (Maria Schrader, 2022) ([Koridor](https://koridor-ku.si/filmtv/33-liffe-ona-ve-she-said/))
 
