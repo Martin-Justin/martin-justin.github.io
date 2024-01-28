@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[december 2023] Irena Svetek: Črni princ ([Literatura](https://www.ludliteratura.si/knjigarna/revije/389-390/))
+
 [november 2023] Svetlana Slapšak: Grožnja in strah ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/lumpen-nacifasizem-kratkega-dometa/))
 
 [oktober 2023] Boštjan Videmšek: Vojni dnevnik ([Literatura](https://www.ludliteratura.si/knjigarna/revije/388/))
@@ -158,6 +160,10 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
 
 # kolumne
+
+[december 2023] Strinjajmo se, da se strinjamo ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/strinjajmo-se-da-se-strinjamo/))
+
+[november 2023] Druga izdaja ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/druga-izdaja/))
 
 [oktober 2023] V iskanju knjige leta ali Bochum book haul ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/v-iskanju-knjige-leta-ali-bochum-book-haul/))
 
