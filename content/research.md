@@ -5,6 +5,8 @@ description = "Published academic papers and articles."
 
 ## Recent and forthcoming publications
 
+- Kripke o esencializmu izvora, Analiza (v tisku)
+
 - Problem neidentitete kot problem okoljske etike, Analiza (v tisku)
 
 - Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
@@ -12,6 +14,8 @@ description = "Published academic papers and articles."
 You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
 
 ## Recent talks
+
+- December 2023: Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model (with Dunja Šešelja and Christian Strasser). Workshop on Computational Models in Social Epistemology, RUB, Bochum .
 
 - November 2022: Environmental Ethics and Identity Problem. Philosophy Students' Symposium 2022, University of Maribor, Maribor (given online).
 
