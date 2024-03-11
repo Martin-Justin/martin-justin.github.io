@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[februar 2024] Ana Marwan: Lipitsch ([Literatura](https://www.ludliteratura.si/knjigarna/revije/391-392/))
+
 [december 2023] Irena Svetek: Črni princ ([Literatura](https://www.ludliteratura.si/knjigarna/revije/389-390/))
 
 [november 2023] Svetlana Slapšak: Grožnja in strah ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/lumpen-nacifasizem-kratkega-dometa/))
@@ -184,6 +186,8 @@ description = "List of published reviews and essays by Martin Justin."
 [februar 2023] ChatGPT in globalni kapitalizem ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
 
 # intervjuji & reportaže
+
+[februar 2024] Pogovor z Nadjo Dobnik o umetni inteligenci v prevajanju ([ludliteratura.si](https://www.ludliteratura.si/intervju/orodja-se-nenehno-spreminjajo-spretnosti-in-znanja-ostanejo/))
 
 [junij 2023] Pogovor z Olgo Markič o zgodovini umetne inteligence ([ludliteratura.si](https://www.ludliteratura.si/intervju/raziskovanje-umetne-inteligence-je-bilo-vedno-zelo-interdisciplinarno/))
 
