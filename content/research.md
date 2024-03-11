@@ -9,6 +9,8 @@ description = "Published academic papers and articles."
 
 - Problem neidentitete kot problem okoljske etike, Analiza (v tisku)
 
+- Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
+
 - Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
 
 You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
