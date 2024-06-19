@@ -5,11 +5,11 @@ description = "Published academic papers and articles."
 
 ## Recent and forthcoming publications
 
-- Kripke o esencializmu izvora, Analiza (v tisku)
-
-- Problem neidentitete kot problem okoljske etike, Analiza (v tisku)
-
 - Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
+
+- Problem neidentitete kot problem okoljske etike, [Analiza](https://journals.um.si/index.php/analiza/article/view/3825) (2023)
+
+- Kripke o esencializmu izvora materialnih predmetov, [Analiza](https://journals.um.si/index.php/analiza/article/view/3830) (2023)
 
 - Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
 
@@ -17,7 +17,9 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 ## Recent talks
 
-- December 2023: Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model (with Dunja Šešelja and Christian Strasser). Workshop on Computational Models in Social Epistemology, RUB, Bochum .
+- March 2024: Towards zetetic social epistemology (with Dunja Šešelja and Christian Strasser). The Inquiry Network WIP Talks (given online).
+
+- December 2023: Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model (with Dunja Šešelja and Christian Strasser). Workshop on Computational Models in Social Epistemology, RUB, Bochum.
 
 - November 2022: Environmental Ethics and Identity Problem. Philosophy Students' Symposium 2022, University of Maribor, Maribor (given online).
 
