@@ -17,6 +17,10 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 ## Recent talks
 
+- September 2024: Norms of Peer Disagreement in the Context of Scientific Inquiry (with Dunja Šešelja, Christian Strasser, and Borut Trpin). Understanding Scientific Disagreement, Bologna.
+
+- September 2024: The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration (with Borut Trpin). The EENPS Conference 2024, Krakow.
+
 - March 2024: Towards zetetic social epistemology (with Dunja Šešelja and Christian Strasser). The Inquiry Network WIP Talks (given online).
 
 - December 2023: Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model (with Dunja Šešelja and Christian Strasser). Workshop on Computational Models in Social Epistemology, RUB, Bochum.
