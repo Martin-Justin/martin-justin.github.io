@@ -5,6 +5,10 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[september 2024] Iztok Osojnik: Vohun ([Literatura](https://www.ludliteratura.si/knjigarna/revije/399/))
+
+[julij 2024] Benjamín Labatut: Slepa luč ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/nenavaden-svet/))
+
 [februar 2024] Ana Marwan: Lipitsch ([Literatura](https://www.ludliteratura.si/knjigarna/revije/391-392/))
 
 [december 2023] Irena Svetek: Črni princ ([Literatura](https://www.ludliteratura.si/knjigarna/revije/389-390/))
@@ -142,6 +146,10 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
 # eseji
+
+[september 2024] Puščavska moč ali kdo se boji Fremenov ([Literatura](https://www.ludliteratura.si/knjigarna/revije/399/))
+
+[december 2023] Kdo se boji demonske grozljivke? ([Literatura](https://www.ludliteratura.si/knjigarna/revije/389-390/))
 
 [september 2023] Misleča smetana ([AirBeletrina](https://airbeletrina.si/misleca-smetana/))
 
