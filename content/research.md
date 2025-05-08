@@ -3,7 +3,9 @@ title = "Martin Justin | Research"
 description = "Published academic papers and articles."
 +++
 
-## Recent and forthcoming publications
+## Publications
+
+- More Hope for Conciliationism, _Episteme_ ([forthcoming](https://www.academia.edu/129252172/More_Hope_for_Conciliationism))
 
 - Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
 
@@ -15,11 +17,21 @@ description = "Published academic papers and articles."
 
 You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
 
-## Recent talks
+## Talks
 
-- September 2024: Norms of Peer Disagreement in the Context of Scientific Inquiry (with Dunja Šešelja, Christian Strasser, and Borut Trpin). Understanding Scientific Disagreement, Bologna.
+- April 2025: Coherence, Belief Updating, and Epistemic Luck: A Computational Exploration. The Legacy of Nenad's Philosophical Thought, Rijeka, Croatia.
 
-- September 2024: The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration (with Borut Trpin). The EENPS Conference 2024, Krakow.
+- March 2025: More Hope for Conciliationism. Big Mistake! Big! HUGE! Milan, Italy.
+
+- January 2025: Coherence as a Filter for Misleading Information: An Agent-Based Exploration (with Borut Trpin). Formal Models of Scientific Inquiry, Bochum, Germany.
+
+- November 2024: Is Higher-Order Evidence Predictably Misleading? Philosophy Students' Symposium 2024, Maribor.
+
+- October 2024: The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration (with Borut Trpin). Methodological Trends in Contemporary Philosophy, Ljubljana, Slovenia.
+
+- September 2024: Norms of Peer Disagreement in the Context of Scientific Inquiry (with Dunja Šešelja, Christian Strasser, and Borut Trpin). Understanding Scientific Disagreement, Bologna, Italy.
+
+- September 2024: The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration (with Borut Trpin). The EENPS Conference 2024, Kraków, Poland.
 
 - March 2024: Towards zetetic social epistemology (with Dunja Šešelja and Christian Strasser). The Inquiry Network WIP Talks (given online).
 
@@ -33,11 +45,11 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 - December 2021: Mill and Whewell on discovery and proof of scientific theories. The 8th TMU Student Philosophy Conference. Tarbiat Modares University, Iran (given online).
 
-- September 2021: The Concept of Gestalt in Merleau-Ponty’s Philosopy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
+- September 2021: The Concept of Gestalt in Merleau-Ponty's Philosophy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
 
 ## Other
 
-I also co-authored some papers in corpus linguistic:
+I also co-authored two papers in corpus linguistics:
 
 - Klasifikacijska evalvacija strojno izluščenih protipomenskih parov. Zbornik konference Jezikovne tehnologije in digitalna humanistika (2022, s Tino Mozetič, Miho Severom in Jasmino Pegan). [Link](https://nl.ijs.si/jtdh22/pdf/JTDH2022_Proceedings_intro.pdf)
 
