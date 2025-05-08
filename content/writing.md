@@ -5,6 +5,10 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[februar 2025] Anja Radaljac: Prst v prekatu ([Literatura](https://www.ludliteratura.si/knjigarna/revije/403-404/))
+
+[december 2024] Slavko Pregl in Leon Pogelšek: Pokvarjeno zlato ([Literatura](https://www.ludliteratura.si/knjigarna/revije/401-402/))
+
 [september 2024] Iztok Osojnik: Vohun ([Literatura](https://www.ludliteratura.si/knjigarna/revije/399/))
 
 [julij 2024] Benjamín Labatut: Slepa luč ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/nenavaden-svet/))
@@ -145,37 +149,21 @@ description = "List of published reviews and essays by Martin Justin."
 
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
-# eseji
+# eseji in kolumne
+
+[april 2025] Pogled na svet z Devete avenije ([Literatura](https://www.ludliteratura.si/knjigarna/revije/406/))
 
 [september 2024] Puščavska moč ali kdo se boji Fremenov ([Literatura](https://www.ludliteratura.si/knjigarna/revije/399/))
 
 [december 2023] Kdo se boji demonske grozljivke? ([Literatura](https://www.ludliteratura.si/knjigarna/revije/389-390/))
-
-[september 2023] Misleča smetana ([AirBeletrina](https://airbeletrina.si/misleca-smetana/))
-
-[marec 2023] Bodimo civilizirani ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/knjigogled/bodimo-civilizirani/))
-
-[februar 2023] Murakami, nekaj let pozneje ([AirBeletrina](http://www.airbeletrina.si/clanek/murakami-nekaj-let-pozneje))
-
-[december 2022] Konec lastnine? ([Disenz](https://www.disenz.net/konec-lastnine/))
-
-[september 2022] Najlepše antične pripovedke ([Airbeletrina](http://www.airbeletrina.si/clanek/najlepse-anticne-pripovedke))
-
-[december 2021] Kognitivna (foto)pristranskost: fotografija in resničnost ([Membrana](https://www.membrana.si/esej/kognitivna-fotopristranskost/))
-
-[december 2021] Nenavadna znanost kvarnikov ([AirBeletrina](http://www.airbeletrina.si/clanek/nenavadna-znanost-kvarnikov))
-
-[oktober 2019] O položaju molka in odvisnost, v katerega so potisnjene ženske ([AirBeletrina](http://www.airbeletrina.si/clanek/o-polozaju-molka-in-odvisnosti-v-katerega-so-potisnjene-zenske))
-
-[junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
-
-# kolumne
 
 [december 2023] Strinjajmo se, da se strinjamo ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/strinjajmo-se-da-se-strinjamo/))
 
 [november 2023] Druga izdaja ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/druga-izdaja/))
 
 [oktober 2023] V iskanju knjige leta ali Bochum book haul ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/v-iskanju-knjige-leta-ali-bochum-book-haul/))
+
+[september 2023] Misleča smetana ([AirBeletrina](https://airbeletrina.si/misleca-smetana/))
 
 [september 2023] Korelacija in vzročnost v medijih ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/korelacija-in-vzrocnost-v-medijih/))
 
@@ -191,13 +179,37 @@ description = "List of published reviews and essays by Martin Justin."
 
 [marec 2023] Druga in zadnja kolumna o ChatGPT-ju ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/druga-in-zadnja-kolumna-o-chatgpt-ju/))
 
+[marec 2023] Bodimo civilizirani ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/knjigogled/bodimo-civilizirani/))
+
 [februar 2023] ChatGPT in globalni kapitalizem ([ludliteratura.si](https://www.ludliteratura.si/esej-kolumna/chatgpt-in-globalni-kapitalizem/))
+
+[februar 2023] Murakami, nekaj let pozneje ([AirBeletrina](http://www.airbeletrina.si/clanek/murakami-nekaj-let-pozneje))
+
+[december 2022] Konec lastnine? ([Disenz](https://www.disenz.net/konec-lastnine/))
+
+[september 2022] Najlepše antične pripovedke ([Airbeletrina](http://www.airbeletrina.si/clanek/najlepse-anticne-pripovedke))
+
+[december 2021] Kognitivna (foto)pristranskost: fotografija in resničnost ([Membrana](https://www.membrana.si/esej/kognitivna-fotopristranskost/))
+
+[december 2021] Nenavadna znanost kvarnikov ([AirBeletrina](http://www.airbeletrina.si/clanek/nenavadna-znanost-kvarnikov))
+
+[oktober 2019] O položaju molka in odvisnost, v katerega so potisnjene ženske ([AirBeletrina](http://www.airbeletrina.si/clanek/o-polozaju-molka-in-odvisnosti-v-katerega-so-potisnjene-zenske))
+
+[junij 2019] Zakaj je Medeja lahko ubila svoja otroka? ([Zamenjave](https://zamenjave.wordpress.com/2019/05/31/martin-justin-zakaj-je-medeja-lahko-ubila-svoja-otroka/))
 
 # intervjuji & reportaže
 
-[februar 2024] Pogovor z Nadjo Dobnik o umetni inteligenci v prevajanju ([ludliteratura.si](https://www.ludliteratura.si/intervju/orodja-se-nenehno-spreminjajo-spretnosti-in-znanja-ostanejo/))
+[marec 2025] Pogovor z raziskovalko Ivano Zajc o digitalni humanistiki v literaturi ([ludliteratura.si](https://www.ludliteratura.si/intervju/digitalne-metode-omogocajo-razpoznavanje-vzorcev-ki-s-prostim-ocesom-niso-vidni/))
 
-[junij 2023] Pogovor z Olgo Markič o zgodovini umetne inteligence ([ludliteratura.si](https://www.ludliteratura.si/intervju/raziskovanje-umetne-inteligence-je-bilo-vedno-zelo-interdisciplinarno/))
+[december 2024] Pogovor s pisateljem Davorinom Lenkom o zbirki _Goli objem_ ([ludliteratura.si](https://www.ludliteratura.si/intervju/po-svoje-sem-pisal-dve-knjigi-hkrati-ki-sta-bili-ves-cas-v-dialogu/))
+
+[julij 2024] Pogovor z raziskovalno Špelo Arhar Holdt o jezikovnih virih in tehnologijah ([ludliteratura.si](https://www.ludliteratura.si/intervju/za-resevanje-trenutnih-izzivov-potrebujemo-neprimerno-vec-gradiva-kot-v-preteklosti/))
+
+[maj 2024] Pogovor z raziskovalko Ajdo Pretner o umetni inteligenci v humanistiki ([ludliteratura.si](https://www.ludliteratura.si/intervju/ne-verjamem-da-bo-nekaksen-racunalniski-humanist-to-delo-kdaj-opravljal-sam/))
+
+[februar 2024] Pogovor s prevajalko in profesorico Nadjo Dobnik o umetni inteligenci v prevajanju ([ludliteratura.si](https://www.ludliteratura.si/intervju/orodja-se-nenehno-spreminjajo-spretnosti-in-znanja-ostanejo/))
+
+[junij 2023] Pogovor s filozofijo Olgo Markič o zgodovini umetne inteligence ([ludliteratura.si](https://www.ludliteratura.si/intervju/raziskovanje-umetne-inteligence-je-bilo-vedno-zelo-interdisciplinarno/))
 
 [januar 2023] Reportaža z razstave "Useless Bodies", Elmgreen & Dragset, Fundazione Prada ([Membrana](https://www.membrana.si/recenzija/odvecna-telesa/))
 
@@ -218,3 +230,52 @@ description = "List of published reviews and essays by Martin Justin."
 [maj 2018] Intervju s pesnico Nino Medved ([Koridor](https://koridor-ku.si/literatura/nina-medved-vse-je-treba-tvegati/))
 
 [marec 2018] Reportaža s pogovora s Terryjem Eagletonom ([Koridor](https://koridor-ku.si/literatura/fabula-pred-fabulo-terry-eagleton-28-2-2018-klub-cd/))
+
+# novinarski prispevki
+
+[marec 2024] Zdravstvene dezinformacije kot oglaševalska strategija ([Oštro](https://www.ostro.si/si/zgodbe/zdravstvene-dezinformacije-kot-oglasevalska-strategija))
+
+[februar 2024] Na Planetu lepote prikriti oglasi za prehranska dopolnila ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/jna-planetu-lepote-prikriti-oglasi-za-prehranska-dopolnila))
+
+[februar 2024] Zaposlenih v javnem sektorju ni 25 tisoč več kot leta 2015 ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/zaposlenih-v-javnem-sektorju-ni-25-tiso-vec-kot-leta-2015))
+
+[januar 2024] Znanstveniki niso odkrili, da je raka ustvaril človek ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/znanstveniki-niso-odkrili-da-je-raka-ustvaril-clovek))
+
+[november 2023] Cene življenjskih potrebščin se niso zvišale za petino ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/cene-zivljenjskih-potrebscin-se-niso-zvisale-za-petino))
+
+[november 2023] Študije ne potrjujejo nevarnosti ultrazvoka v predporodnem obdobju ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/studije-ne-potrjujejo-nevarnosti-ultrazvoka-v-predporodnem-obdobju))
+
+[oktober 2023] Palestinski parlament s Hamasovo večino razpuščen leta 2018 ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/palestinski-parlament-s-hamasovo-vecino-razpuscen-leta-2018))
+
+[oktober 2023] Palestinski parlament s Hamasovo večino razpuščen leta 2018 ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/palestinski-parlament-s-hamasovo-vecino-razpuscen-leta-2018))
+
+[avgust 2023] Planet lepote psevdoznanstveno o nevarnosti cepiv proti covidu-19 ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/planet-lepote-psevdoznanstveno-o-nevarnosti-cepiv-proti-covidu-19))
+
+[avgust 2023] Globalno segrevanje vpliva na ekstremne vremenske dogodke ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/globalno-segrevanje-vpliva-na-ekstremne-vremenske-dogodke))
+
+[avgust 2023] Študija ni dokazala, da 4000 korakov na dan prepreči predčasno smrt ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/studija-ni-dokazala-da-4000-korakov-na-dan-prepreci-predcasno-smrt))
+
+[avgust 2023] Portal Nova24tv manipuliral o financiranju protipoplavne varnosti ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/portal-nova24tv-manipuliral-o-financiranju-protipoplavne-varnosti))
+
+[junij 2023] Nova24tv manipulativno o kritiki poročila o stanju pravne države ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/nova24tv-manipulativno-o-kritiki-porocila-o-stanju-pravne-drzave))
+
+[julij 2023] Podpredsednica SDM neutemeljeno o vrednotah mladih ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/podpredsednica-sdm-neutemeljeno-o-vrednotah-mladih))
+
+[julij 2023] Ne drži, da demokratične reforme niso potrebne za ukrajinsko članstvo v Natu ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/ne-drzi-da-demokraticne-reforme-niso-potrebne-za-ukrajinsko-clanstvo-v-natu))
+
+[junij 2023] Elektrika za gospodinjstva v Sloveniji ni cenejša kot na Hrvaškem ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/elektrika-za-gospodinjstva-v-sloveniji-ni-cenejsa-kot-na-hrvaskem))
+
+[junij 2023] Za zastoje na cestah ni krivo sofinanciranje nevladnih organizacij ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/za-zastoje-na-cestah-ni-krivo-sofinanciranje-nevladnih-organizacij))
+
+[junij 2023] MMC RTV Slovenija pod Urbanijevim vodstvom ni imel druge največje obiskanosti ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/mmc-rtv-slovenija-pod-urbanijevim-vodstvom-ni-imel-druge-najvecje-obiskanosti))
+
+[junij 2023] Nova24tv.si manipulativno o DNK-testiranju migrantov v ZDA ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/nova24tvsi-manipulativno-o-dnk-testiranju-migrantov-v-zda))
+
+[maj 2023] Inflacija v Sloveniji ni skoraj enkrat višja od evropskega povprečja ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/inflacija-v-sloveniji-ni-dvakrat-visja-od-evropskega-povprecja))
+
+[maj 2023] Vlada pokojnin ni uskladila dvakrat ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/vlada-pokojnin-ni-uskladila-dvakrat))
+
+[maj 2023] WHO in OZN ne trdita, da bi morali imeti otroci spolne partnerje ([Oštro](https://www.ostro.si/si/razkrinkavanje/objave/who-in-ozn-ne-trdita-da-bi-morali-imeti-otroci-spolne-partnerje))
+
+
+
