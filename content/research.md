@@ -5,7 +5,7 @@ description = "Published academic papers and articles."
 
 ## Publications
 
-- More Hope for Conciliationism, _Episteme_ ([forthcoming](https://www.academia.edu/129252172/More_Hope_for_Conciliationism))
+- More Hope for Conciliationism, _Episteme_ (forthcoming), [preprint](https://philsci-archive.pitt.edu/25264/)
 
 - Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
 
