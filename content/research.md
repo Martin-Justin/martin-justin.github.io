@@ -3,19 +3,12 @@ title = "Martin Justin | Research"
 description = "Published academic papers and articles."
 +++
 
-## Publications
+## Selected publications
 
-- More Hope for Conciliationism, _Episteme_ (forthcoming), [preprint](https://philsci-archive.pitt.edu/25264/)
+- The Mix Matters: Exploring the Interplay Between Epistemic and Zetetic Norms in Scientific Disagreement, with Dunja Šešelja, Christian Straßer, and Borut Trpin [The British Journal for the Philosophy of Science](https://www.journals.uchicago.edu/doi/10.1086/737742) (2025)
 
-- Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
+- More Hope for Conciliationism, [Episteme](https://www.cambridge.org/core/journals/episteme/article/more-hope-for-conciliationism/A84A8428DB64429EE2567112AD775534) (2025)
 
-- Problem neidentitete kot problem okoljske etike, [Analiza](https://journals.um.si/index.php/analiza/article/view/3825) (2023)
-
-- Kripke o esencializmu izvora materialnih predmetov, [Analiza](https://journals.um.si/index.php/analiza/article/view/3830) (2023)
-
-- Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
-
-You can find preprints of my philosophical papers on my [academia.edu](https://uni-aas.academia.edu/MartinJustin) page.
 
 ## Talks
 
@@ -47,7 +40,20 @@ You can find preprints of my philosophical papers on my [academia.edu](https://u
 
 - September 2021: The Concept of Gestalt in Merleau-Ponty's Philosophy. International Conference of Undergraduate Research 2021. Monash University, Australia (given online).
 
-## Other
+## Other Publication
+
+In philosophy:
+
+- Higher-Order Evidence in Science: Some Problematic Consequences of Steadfastness and Level-Splitting, [Analiza](https://journals.um.si/index.php/analiza/article/view/4941/3237) (2024)
+
+- Deep Learning in Science: Is there a Reason for (Philosophical) Pessimism?, [Interdisciplinary Description of Complex Systems](https://hrcak.srce.hr/314660) (2024)
+
+- Problem neidentitete kot problem okoljske etike, [Analiza](https://journals.um.si/index.php/analiza/article/view/3825) (2023)
+
+- Kripke o esencializmu izvora materialnih predmetov, [Analiza](https://journals.um.si/index.php/analiza/article/view/3830) (2023)
+
+- Is System 2 uniquely human?, [Analiza](https://daf.splet.arnes.si/files/2022/08/Analiza_01_2021.pdf) (2021)
+
 
 I also co-authored two papers in corpus linguistics:
 
