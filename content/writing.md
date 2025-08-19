@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[julij 2025] Elizabeth Hardwick: Nespečne noči ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/zivljenje-skrbi-in-branja/))
+
 [februar 2025] Anja Radaljac: Prst v prekatu ([Literatura](https://www.ludliteratura.si/knjigarna/revije/403-404/))
 
 [december 2024] Slavko Pregl in Leon Pogelšek: Pokvarjeno zlato ([Literatura](https://www.ludliteratura.si/knjigarna/revije/401-402/))
