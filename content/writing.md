@@ -5,6 +5,8 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
+[avgust 2025] Mimi Podkrižnik: Čista sreča ([ludliteratura.si](https://www.ludliteratura.si/knjigarna/revije/410/))
+
 [julij 2025] Elizabeth Hardwick: Nespečne noči ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/zivljenje-skrbi-in-branja/))
 
 [februar 2025] Anja Radaljac: Prst v prekatu ([Literatura](https://www.ludliteratura.si/knjigarna/revije/403-404/))
