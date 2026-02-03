@@ -5,7 +5,11 @@ description = "List of published reviews and essays by Martin Justin."
 
 # knjižne recenzije
 
-[avgust 2025] Mimi Podkrižnik: Čista sreča ([ludliteratura.si](https://www.ludliteratura.si/knjigarna/revije/410/))
+[december 2025] Benjamín Labatut: Maniac ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/clovek-mit-legenda/))
+
+[december 2025] Mirt Komel: Črepinja ([Literatura](https://www.ludliteratura.si/knjigarna/revije/413-414/))
+
+[avgust 2025] Mimi Podkrižnik: Čista sreča ([Literatura](https://www.ludliteratura.si/knjigarna/revije/410/))
 
 [julij 2025] Elizabeth Hardwick: Nespečne noči ([ludliteratura.si](https://www.ludliteratura.si/kritika-komentar/zivljenje-skrbi-in-branja/))
 
@@ -154,6 +158,8 @@ description = "List of published reviews and essays by Martin Justin."
 [junij 2018] The Death of Stalin (Armando Iannucci, 2017) ([Koridor](https://koridor-ku.si/filmtv/stalinova-smrt-death-stalin/))
 
 # eseji in kolumne
+
+[oktober 2025] Literatura z drugimi sredstvi ([Literatura](https://www.ludliteratura.si/knjigarna/revije/412/))
 
 [april 2025] Pogled na svet z Devete avenije ([Literatura](https://www.ludliteratura.si/knjigarna/revije/406/))
 
