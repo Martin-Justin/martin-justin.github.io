@@ -1,6 +1,6 @@
 +++
 title = "Martin Justin | Research"
-description = "Published academic papers and articles."
+description = "Published academic papers and talks."
 +++
 
 ## Selected publications
@@ -13,6 +13,10 @@ description = "Published academic papers and articles."
 
 
 ## Talks
+
+- February 2026: Industry Bias and Zombie Hypotheses in Science, invited talk at ACEPS, University of Johannesburg, South Africa.
+
+- February 2026: Zombie Hypotheses in Science. Perspectives on Scientific Error 8, Leiden, The Netherlands.
 
 - December 2025: Neurath's Bet on Random Allocation of Research Funding. The Legacy of the Vienna Circle a Century On, Maribor, Slovenia
 
