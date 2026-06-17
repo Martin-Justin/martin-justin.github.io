@@ -90,7 +90,9 @@ const { title, description = "Martin's Personal Academic Portfolio" } = Astro.pr
   .nav-links {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem 1.5rem;
     font-family: 'Inter', -apple-system, sans-serif;
   }
 
@@ -101,10 +103,23 @@ const { title, description = "Martin's Personal Academic Portfolio" } = Astro.pr
     font-weight: 500;
     color: var(--text-muted);
     transition: color 0.1s ease;
+    white-space: nowrap;
   }
 
   .nav-links a:hover {
     color: var(--text-primary);
+  }
+
+  @media (max-width: 480px) {
+    .main-nav {
+      padding: 1.5rem 0;
+    }
+    .nav-links {
+      gap: 0.6rem 1rem;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+    }
   }
 
   .theme-toggle {
