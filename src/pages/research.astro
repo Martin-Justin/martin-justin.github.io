@@ -30,7 +30,31 @@ const publications = [
     links: [
       { text: "[Episteme]", url: "https://www.cambridge.org/core/journals/episteme/article/more-hope-for-conciliationism/A84A8428DB64429EE2567112AD775534" }
     ],
-    abstract: "In the epistemology of disagreement, conciliationism states that agents should to revise their belief upon learning of peer disagreement. I defend conciliationism against recent objections."
+    abstract: "In the epistemology of disagreement, conciliationism states that agents should revise their belief upon learning of peer disagreement. I defend conciliationism against recent objections."
+  }
+];
+
+const wip = [
+  {
+    title: "Funding Information as Evidence",
+    coauthors: "with Borut Trpin",
+    status: "Under review",
+    abstract: "Recent philosophical work suggests treating funding disclosures as meta-evidence: evidence about the evidential force of first-order study results. This paper asks whether such meta-evidence can be used to improve collective inquiry.",
+    links: []
+  },
+    {
+    title: "The Limits of Grant Peer Review",
+    coauthors: "",
+    status: "Under review",
+    abstract: The paper challenges the assumption that grant peer review offers an objective assessment of scientific merit.",
+    links: []
+  },
+    {
+    title: "Higher-Order Evidence in Non-Ideal Epistemology",
+    coauthors: "",
+    status: "Draft",
+    abstract: The paper tackles an outstanding problem for the views that higher-order evidence is epistemically important, viz. that it is predictably misleading.",
+    links: []
   }
 ];
 
@@ -174,7 +198,34 @@ const talks = [
 
   <section>
     <h2 class="section-title"><span class="section-number">II.</span>Work in Progress</h2>
-    <p class="work-in-progress-empty"><em>Working papers and drafts will be listed here.</em></p>
+    {wip.length === 0 ? (
+      <p class="work-in-progress-empty"><em>Working papers and drafts will be listed here.</em></p>
+    ) : (
+      <div class="publications-list">
+        {wip.map((item, idx) => {
+          const wipNum = `[wip-${String(wip.length - idx).padStart(2, '0')}]`;
+          return (
+            <article class="publication-item" id={wipNum.slice(1, -1)}>
+              <div class="pub-number">{wipNum}</div>
+              <div class="pub-content">
+                <h3 class="pub-title">{item.title}</h3>
+                <p class="pub-meta">{item.coauthors && <span>{item.coauthors} • </span>}<em>{item.status}</em></p>
+                <div class="pub-abstract">
+                  {item.abstract}
+                </div>
+                {item.links && item.links.length > 0 && (
+                  <div class="pub-links">
+                    {item.links.map((link) => (
+                      <a href={link.url} target="_blank" rel="noopener noreferrer" class="pub-link">{link.text}</a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    )}
   </section>
 
   <section>
