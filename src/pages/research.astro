@@ -203,9 +203,9 @@ const talks = [
     ) : (
       <div class="publications-list">
         {wip.map((item, idx) => {
-          const wipNum = `[wip-${String(wip.length - idx).padStart(2, '0')}]`;
+          const wipNum = `[${String(wip.length - idx).padStart(2, '0')}]`;
           return (
-            <article class="publication-item" id={wipNum.slice(1, -1)}>
+            <article class="publication-item" id={`wip-${wipNum.slice(1, -1)}`}>
               <div class="pub-number">{wipNum}</div>
               <div class="pub-content">
                 <h3 class="pub-title">{item.title}</h3>
@@ -270,6 +270,7 @@ const talks = [
     font-weight: 700;
     min-width: 1.8rem;
     padding-top: 0.15rem;
+    flex-shrink: 0;
   }
 
   .pub-title {
