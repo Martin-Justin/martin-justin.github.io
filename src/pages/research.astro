@@ -1,0 +1,294 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const publications = [
+  {
+    num: "[01]",
+    title: "Coherence as a Constraint on Scientific Inquiry",
+    coauthors: "with Borut Trpin",
+    venue: "Synthese (2025)",
+    links: [
+      { text: "[Synthese]", url: "https://link.springer.com/article/10.1007/s11229-025-05281-3" }
+    ],
+    abstract: "Scientific inquiry is often constrained by requirements of coherence, both internal and external. In this paper, we explore how cognitive coherence constraints influence the development and acceptance of scientific theories."
+  },
+  {
+    num: "[02]",
+    title: "The Mix Matters: Exploring the Interplay Between Epistemic and Zetetic Norms in Scientific Disagreement",
+    coauthors: "with Dunja Šešelja, Christian Straßer, and Borut Trpin",
+    venue: "The British Journal for the Philosophy of Science (2025)",
+    links: [
+      { text: "[The British Journal for the Philosophy of Science]", url: "https://www.journals.uchicago.edu/doi/10.1086/737742" }
+    ],
+    abstract: "Scientific communities balance the pursuit of truth (epistemic norms) with the pursuit of new questions and investigative lines (zetetic norms). We examine how this interplay shapes the progress of scientific consensus and disagreement using computational models."
+  },
+  {
+    num: "[03]",
+    title: "More Hope for Conciliationism",
+    coauthors: "",
+    venue: "Episteme (2025)",
+    links: [
+      { text: "[Episteme]", url: "https://www.cambridge.org/core/journals/episteme/article/more-hope-for-conciliationism/A84A8428DB64429EE2567112AD775534" }
+    ],
+    abstract: "In the epistemology of disagreement, conciliationism urges agents to revise their confidence upon learning of peer disagreement. I defend conciliationism against recent objections, suggesting that it remains a rationally robust response in scientific contexts."
+  }
+];
+
+const talks = [
+  {
+    date: "Feb 2026",
+    title: "Industry Bias and Zombie Hypotheses in Science",
+    venue: "Invited talk at ACEPS, University of Johannesburg, South Africa"
+  },
+  {
+    date: "Feb 2026",
+    title: "Zombie Hypotheses in Science",
+    venue: "Perspectives on Scientific Error 8, Leiden, The Netherlands"
+  },
+  {
+    date: "Dec 2025",
+    title: "Neurath’s Bet on Random Allocation of Research Funding",
+    venue: "The Legacy of the Vienna Circle a Century On, Maribor, Slovenia"
+  },
+  {
+    date: "Nov 2025",
+    title: "Industry Bias and Zombie Hypotheses in Biomedical Science",
+    venue: "Philosophy Students’ Symposium 2025, Maribor, Slovenia"
+  },
+  {
+    date: "Aug 2025",
+    title: "Industry Sponsorship Bias as Higher-Order Evidence: An Agent-Based Exploration",
+    venue: "EPSA 2025, Groningen, The Netherlands (with D. Šešelja, C. Straßer, B. Trpin)"
+  },
+  {
+    date: "Jun 2025",
+    title: "Is Higher-Order Evidence Predictably Misleading?",
+    venue: "Bled Philosophy Conference 2025, Bled, Slovenia"
+  },
+  {
+    date: "May 2025",
+    title: "Coherence, Belief Updating, and Epistemic Luck: A Computational Exploration",
+    venue: "Nenad In Our Minds, University of Maribor, Slovenia (with B. Trpin)"
+  },
+  {
+    date: "Apr 2025",
+    title: "Coherence, Belief Updating, and Epistemic Luck: A Computational Exploration",
+    venue: "The Legacy of Nenad’s Philosophical Thought, Rijeka, Croatia"
+  },
+  {
+    date: "Mar 2025",
+    title: "More Hope for Conciliationism",
+    venue: "Big Mistake! Big! HUGE!, Milan, Italy"
+  },
+  {
+    date: "Jan 2025",
+    title: "Coherence as a Filter for Misleading Information: An Agent-Based Exploration",
+    venue: "Formal Models of Scientific Inquiry, Bochum, Germany (with B. Trpin)"
+  },
+  {
+    date: "Nov 2024",
+    title: "Is Higher-Order Evidence Predictably Misleading?",
+    venue: "Philosophy Students’ Symposium 2024, Maribor, Slovenia"
+  },
+  {
+    date: "Oct 2024",
+    title: "The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration",
+    venue: "Methodological Trends in Contemporary Philosophy, Ljubljana, Slovenia (with B. Trpin)"
+  },
+  {
+    date: "Sep 2024",
+    title: "Norms of Peer Disagreement in the Context of Scientific Inquiry",
+    venue: "Understanding Scientific Disagreement, Bologna, Italy (with D. Šešelja, C. Strasser, B. Trpin)"
+  },
+  {
+    date: "Sep 2024",
+    title: "The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration",
+    venue: "The EENPS Conference 2024, Kraków, Poland (with B. Trpin)"
+  },
+  {
+    date: "Mar 2024",
+    title: "Towards zetetic social epistemology",
+    venue: "The Inquiry Network WIP Talks (online, with D. Šešelja, C. Strasser)"
+  },
+  {
+    date: "Dec 2023",
+    title: "Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model",
+    venue: "Workshop on Computational Models in Social Epistemology, RUB, Bochum (with D. Šešelja, C. Strasser)"
+  },
+  {
+    date: "Nov 2022",
+    title: "Environmental Ethics and Identity Problem",
+    venue: "Philosophy Students’ Symposium 2022, University of Maribor, Maribor (online)"
+  },
+  {
+    date: "Oct 2022",
+    title: "Is explainability necessary for trustworthiness?",
+    venue: "Ethical Challenges of AI and New Technologies, University of Ljubljana, Ljubljana"
+  },
+  {
+    date: "Oct 2022",
+    title: "Opacity and understanding in artificial neural networks: a philosophical perspective",
+    venue: "Slovenian Cognitive Science Conference 2022. Institut “Jožef Štefan”, Ljubljana"
+  },
+  {
+    date: "Dec 2021",
+    title: "Mill and Whewell on discovery and proof of scientific theories",
+    venue: "The 8th TMU Student Philosophy Conference, Tarbiat Modares University, Iran (online)"
+  },
+  {
+    date: "Sep 2021",
+    title: "The Concept of Gestalt in Merleau-Ponty’s Philosophy",
+    venue: "International Conference of Undergraduate Research 2021, Monash University, Australia (online)"
+  }
+];
+---
+
+<Layout title="Research | Martin Justin">
+  <h1 class="page-title">Publications & Talks</h1>
+  
+  <section>
+    <h2 class="section-title"><span class="section-number">I.</span>Selected Publications</h2>
+    <div class="publications-list">
+      {publications.map((pub, idx) => {
+        const pubNum = `[${String(publications.length - idx).padStart(2, '0')}]`;
+        return (
+          <article class="publication-item" id={pubNum.slice(1, -1)}>
+            <div class="pub-number">{pubNum}</div>
+            <div class="pub-content">
+              <h3 class="pub-title">{pub.title}</h3>
+              <p class="pub-meta">{pub.coauthors && <span>{pub.coauthors} • </span>}<em>{pub.venue}</em></p>
+              <div class="pub-abstract">
+                {pub.abstract}
+              </div>
+              <div class="pub-links">
+                {pub.links.map((link) => (
+                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="pub-link">{link.text}</a>
+                ))}
+              </div>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">II.</span>Work in Progress</h2>
+    <p class="work-in-progress-empty"><em>Working papers and drafts will be listed here.</em></p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">III.</span>Academic Talks</h2>
+    <div class="talks-list">
+      {talks.map((talk, idx) => {
+        const talkNum = `[${String(talks.length - idx).padStart(2, '0')}]`;
+        return (
+          <div class="talk-item">
+            <div class="talk-num">{talkNum}</div>
+            <div class="talk-details">
+              <h3 class="talk-title">{talk.title}</h3>
+              <p class="talk-meta">{talk.venue} • <span class="talk-date">{talk.date}</span></p>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.15em;
+  }
+
+  .publications-list {
+    margin-top: 1rem;
+  }
+
+  .publication-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .pub-number, .talk-num {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 700;
+    min-width: 1.8rem;
+    padding-top: 0.15rem;
+  }
+
+  .pub-title {
+    font-size: 1.05rem;
+    margin: 0 0 0.15rem 0;
+    letter-spacing: 0.02em;
+  }
+
+  .pub-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .pub-abstract {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .pub-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .pub-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+  }
+
+  .pub-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Talks List */
+  .talks-list {
+    margin-top: 1rem;
+  }
+
+  .talk-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .talk-title {
+    font-size: 1rem;
+    margin: 0 0 0.15rem 0;
+  }
+
+  .talk-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  .talk-date {
+    font-weight: 700;
+  }
+
+  .work-in-progress-empty {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-indent: 0 !important;
+  }
+</style>

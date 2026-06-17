@@ -1,0 +1,221 @@
+---
+import Layout from '../layouts/Layout.astro';
+import writingData from '../data/writing.json';
+
+const bookReviews = writingData['knjižne recenzije'] || [];
+const filmReviews = writingData['filmske recenzije'] || [];
+const essays = writingData['eseji in kolumne'] || [];
+const interviews = writingData['intervjuji & reportaže'] || [];
+const journalism = writingData['novinarski prispevki'] || [];
+
+// Helper to format Slovenian dates
+const formatSloveneDate = (dateStr: string) => {
+  return dateStr ? `[${dateStr}] ` : '';
+};
+---
+
+<Layout title="Kritika | Martin Justin" description="Literarna in filmska kritika, eseji ter intervjuji.">
+  <h1 class="page-title">Literarna kritika in zapisi</h1>
+  
+  <p class="intro-paragraph">
+    Zbrana besedila, recenzije, kolumne in novinarski prispevki, objavljeni v slovenski tiskanih in spletnih medijih (LUD Literatura, Ostro.si, Literatura, Koridor, AirBeletrina in drugi).
+  </p>
+
+  <!-- Section I: Book Reviews -->
+  {bookReviews.length > 0 && (
+    <section>
+      <h2 class="section-title"><span class="section-number">I.</span>Knjižne recenzije</h2>
+      <div class="posts-list">
+        {bookReviews.map((item, idx) => (
+          <div class="post-item">
+            <span class="post-num">[{String(bookReviews.length - idx).padStart(2, '0')}]</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                {item.links && item.links.length > 0 ? (
+                  <a href={item.links[0].url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                  item.title
+                )}
+              </h3>
+              <p class="post-meta">
+                {formatSloveneDate(item.date)}
+                {item.links && item.links.map((link) => (
+                  <span class="pub-source">({link.text})</span>
+                ))}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Section II: Film Reviews -->
+  {filmReviews.length > 0 && (
+    <section>
+      <h2 class="section-title"><span class="section-number">II.</span>Filmske recenzije</h2>
+      <div class="posts-list">
+        {filmReviews.map((item, idx) => (
+          <div class="post-item">
+            <span class="post-num">[{String(filmReviews.length - idx).padStart(2, '0')}]</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                {item.links && item.links.length > 0 ? (
+                  <a href={item.links[0].url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                  item.title
+                )}
+              </h3>
+              <p class="post-meta">
+                {formatSloveneDate(item.date)}
+                {item.links && item.links.map((link) => (
+                  <span class="pub-source">({link.text})</span>
+                ))}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Section III: Essays & Columns -->
+  {essays.length > 0 && (
+    <section>
+      <h2 class="section-title"><span class="section-number">III.</span>Eseji in kolumne</h2>
+      <div class="posts-list">
+        {essays.map((item, idx) => (
+          <div class="post-item">
+            <span class="post-num">[{String(essays.length - idx).padStart(2, '0')}]</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                {item.links && item.links.length > 0 ? (
+                  <a href={item.links[0].url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                  item.title
+                )}
+              </h3>
+              <p class="post-meta">
+                {formatSloveneDate(item.date)}
+                {item.links && item.links.map((link) => (
+                  <span class="pub-source">({link.text})</span>
+                ))}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Section IV: Interviews & Reports -->
+  {interviews.length > 0 && (
+    <section>
+      <h2 class="section-title"><span class="section-number">IV.</span>Intervjuji in reportaže</h2>
+      <div class="posts-list">
+        {interviews.map((item, idx) => (
+          <div class="post-item">
+            <span class="post-num">[{String(interviews.length - idx).padStart(2, '0')}]</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                {item.links && item.links.length > 0 ? (
+                  <a href={item.links[0].url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                  item.title
+                )}
+              </h3>
+              <p class="post-meta">
+                {formatSloveneDate(item.date)}
+                {item.links && item.links.map((link) => (
+                  <span class="pub-source">({link.text})</span>
+                ))}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Section V: Journalism -->
+  {journalism.length > 0 && (
+    <section>
+      <h2 class="section-title"><span class="section-number">V.</span>Novinarski prispevki</h2>
+      <div class="posts-list">
+        {journalism.map((item, idx) => (
+          <div class="post-item">
+            <span class="post-num">[{String(journalism.length - idx).padStart(2, '0')}]</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                {item.links && item.links.length > 0 ? (
+                  <a href={item.links[0].url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                  item.title
+                )}
+              </h3>
+              <p class="post-meta">
+                {formatSloveneDate(item.date)}
+                {item.links && item.links.map((link) => (
+                  <span class="pub-source">({link.text})</span>
+                ))}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+</Layout>
+
+<style>
+  .page-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.15em;
+  }
+
+  .intro-paragraph {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .posts-list {
+    margin-top: 1rem;
+  }
+
+  .post-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .post-num {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 700;
+    min-width: 1.8rem;
+    padding-top: 0.15rem;
+  }
+
+  .post-title {
+    font-size: 1.05rem;
+    margin: 0 0 0.15rem 0;
+    letter-spacing: 0.02em;
+  }
+
+  .post-title a {
+    text-decoration: none;
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  .pub-source {
+    font-weight: 700;
+    margin-left: 0.25rem;
+  }
+</style>

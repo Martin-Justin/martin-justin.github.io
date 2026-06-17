@@ -1,0 +1,717 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="CV | MARTIN" description="Academic CV of Martin, PhD Candidate in Epistemology and Philosophy of Science.">
+  <div class="cv-header-row no-print">
+    <h1 class="page-title">Curriculum Vitae</h1>
+    
+    <div class="cv-controls">
+      <!-- Text-based Mode Selector -->
+      <div class="mode-selector">
+        <button id="mode-summary" class="mode-btn active" aria-pressed="true">Summary</button>
+        <span class="mode-separator">/</span>
+        <button id="mode-full" class="mode-btn" aria-pressed="false">Full CV</button>
+      </div>
+
+      <!-- Text-based PDF Link -->
+      <button onclick="window.print()" class="pdf-btn" aria-label="Print CV to PDF">
+        [Export PDF]
+      </button>
+    </div>
+  </div>
+
+  <div id="cv-root" class="cv-paper">
+    <!-- Print-only Header -->
+    <div class="print-only print-header">
+      <div class="print-name">Martin Justin</div>
+      <div class="print-contact-grid">
+        <div>Email: martin.justin1@um.si</div>
+        <div>Website: martin-justin.github.io/</div>
+        <div>GitHub: github.com/Martin-Justin</div>
+        <div>ORCID: 0000-0002-2614-9423</div>
+      </div>
+    </div>
+
+    <!-- Contact & Meta (Web version) -->
+    <div class="cv-meta-info no-print">
+      <p>Email: martin.justin1@um.si</p>
+      <p>Website: <a href="https://martin-justin.github.io/" target="_blank" rel="noopener noreferrer">martin-justin.github.io/</a></p>
+      <p>GitHub: <a href="https://github.com/Martin-Justin" target="_blank" rel="noopener noreferrer">github.com/Martin-Justin</a></p>
+      <p>ORCID: 0000-0002-2614-9423</p>
+    </div>
+
+    <!-- Education -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Education</h2>
+      <div class="cv-timeline">
+        <div class="cv-entry">
+          <div class="cv-entry-date">2024 – Present</div>
+          <div class="cv-entry-content">
+            <h3 class="cv-entry-title">PhD in Philosophy</h3>
+            <p class="cv-entry-location">University of Maribor, Slovenia (Faculty of Arts)</p>
+            <div class="cv-detail-only">
+              <p class="cv-entry-details">
+                PhD project in higher-order evidence on the intersection of epistemology and philosophy of science.<br />
+                Advisors: Asst. Prof. Borut Trpin & Prof. Dunja Šešelja (RUB)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-date">2021 – 2024</div>
+          <div class="cv-entry-content">
+            <h3 class="cv-entry-title">Master of Philosophy</h3>
+            <p class="cv-entry-location">University of Ljubljana, Slovenia (Faculty of Arts)</p>
+            <div class="cv-detail-only">
+              <p class="cv-entry-details">
+                Average score: 10/10<br />
+                Thesis: <em>"Disagreement in Scientific Communities"</em><br />
+                Supervisors: Prof. Olga Markič, Asst. Prof. Borut Trpin, & Prof. Dunja Šešelja (RUB)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-entry-date">2017 – 2021</div>
+          <div class="cv-entry-content">
+            <h3 class="cv-entry-title">Bachelor of Philosophy and Comparative Literature</h3>
+            <p class="cv-entry-location">University of Ljubljana, Slovenia (Faculty of Arts)</p>
+            <div class="cv-detail-only">
+              <p class="cv-entry-details">
+                Average score: 9.98/10<br />
+                Supervisors: Prof. Vanesa Matajc (comparative literature), Assoc. Prof. Sebastjan Vörös (philosophy)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Publications</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2025</span>
+          <div>
+            <strong><a href="https://link.springer.com/article/10.1007/s11229-025-05281-3" target="_blank" rel="noopener noreferrer">"Coherence as a Constraint on Scientific Inquiry."</a></strong> <em>Synthese</em> (with Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2025</span>
+          <div>
+            <strong><a href="https://www.journals.uchicago.edu/doi/10.1086/737742" target="_blank" rel="noopener noreferrer">"The Mix Matters: Exploring the Interplay Between Epistemic and Zetetic Norms in Scientific Disagreement."</a></strong> <em>The British Journal for the Philosophy of Science</em> (with Dunja Šešelja, Christian Straßer, and Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2025</span>
+          <div>
+            <strong><a href="https://www.cambridge.org/core/journals/episteme/article/more-hope-for-conciliationism/A84A8428DB64429EE2567112AD775534" target="_blank" rel="noopener noreferrer">"More Hope for Conciliationism."</a></strong> <em>Episteme</em>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Talks / Presentations -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Presentations</h2>
+      <div class="cv-listings">
+        <!-- Summary Mode: top 5 talks -->
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Dec 2025</span>
+          <div>
+            "Neurath’s Bet on Random Allocation of Research Funding." <em>The Legacy of the Vienna Circle a Century On</em>, Maribor, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Nov 2025</span>
+          <div>
+            "Industry Bias and Zombie Hypotheses in Biomedical Science." <em>Philosophy Students’ Symposium 2025</em>, Maribor, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Aug 2025</span>
+          <div>
+            "Industry Sponsorship Bias as Higher-Order Evidence: An Agent-Based Exploration." <em>EPSA 2025</em>, Groningen, The Netherlands (with Dunja Šešelja, Christian Straßer, and Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Jun 2025</span>
+          <div>
+            "Is Higher-Order Evidence Predictably Misleading?" <em>Bled Philosophy Conference 2025</em>, Bled, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">May 2025</span>
+          <div>
+            "Coherence, Belief Updating, and Epistemic Luck: A Computational Exploration." <em>Nenad In Our Minds</em>, University of Maribor, Slovenia (with Borut Trpin).
+          </div>
+        </div>
+
+        <!-- Full CV Only Mode: earlier talks -->
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Apr 2025</span>
+          <div>
+            "Coherence, Belief Updating, and Epistemic Luck: A Computational Exploration." <em>The Legacy of Nenad’s Philosophical Thought</em>, Rijeka, Croatia (with Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Mar 2025</span>
+          <div>
+            "More Hope for Conciliationism." <em>Big Mistake! Big! HUGE!</em>, Milan, Italy.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Jan 2025</span>
+          <div>
+            "Coherence as a Filter for Misleading Information: An Agent-Based Exploration." <em>Formal Models of Scientific Inquiry</em>, Bochum, Germany (with Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Nov 2024</span>
+          <div>
+            "Is Higher-Order Evidence Predictably Misleading?" <em>Philosophy Students’ Symposium 2024</em>, Maribor, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Oct 2024</span>
+          <div>
+            "The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration." <em>Methodological Trends in Contemporary Philosophy</em>, Ljubljana, Slovenia (with Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Sep 2024</span>
+          <div>
+            "Norms of Peer Disagreement in the Context of Scientific Inquiry." <em>Understanding Scientific Disagreement</em>, Bologna, Italy.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Sep 2024</span>
+          <div>
+            "The Value of Social Coherence in Science: An Agent-Based-Modelling Exploration." <em>The 5th EENPS Biennial Conference</em>, Kraków, Poland (with Borut Trpin).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Mar 2024</span>
+          <div>
+            "Towards Zetetic Social Epistemology." <em>The Inquiry Network WIP Talks</em> (online, with Dunja Šešelja and Christian Straßer).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Dec 2023</span>
+          <div>
+            "Why Inquisitive Norms Matter: Exploring Peer Disagreement with an Agent-Based Model." <em>Workshop on Computational Models in Social Epistemology</em>, Bochum, Germany (with Dunja Šešelja and Christian Straßer).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Nov 2022</span>
+          <div>
+            "Environmental Ethics and Identity Problem." <em>Philosophy Students’ Symposium 2022</em> (online).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Oct 2022</span>
+          <div>
+            "Is explainability necessary for trustworthiness?" <em>Ethical Challenges of Artificial Intelligence and New Technologies</em>, Ljubljana, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Oct 2022</span>
+          <div>
+            "Opacity and understanding in artificial neural networks: a philosophical perspective." <em>Slovenian Cognitive Science Conference 2022</em>, Ljubljana, Slovenia.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">Dec 2021</span>
+          <div>
+            "Mill and Whewell on discovery and proof of scientific theories." <em>The 8th TMU Student Philosophy Conference</em>, Tehran, Iran (online).
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grants, Scholarships, & Awards -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Grants, Scholarships & Awards</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2025</span>
+          <div>
+            <strong>Dr. Uroš Seljak’s Award</strong>: Award for the best scientific publication by a student at University of Ljubljana for <em>"More Hope for Conciliationism"</em> ($10,000, shared).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2024</span>
+          <div>
+            <strong>DAAD Short-Term Research Grant</strong>: Awarded for a 4-month research project on peer disagreement at Ruhr-University Bochum (€5,600, declined due to contract conflict).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">2023</span>
+          <div>
+            <strong>Erasmus+ Scholarship</strong>: International exchange scholarship at Ruhr University Bochum, Germany (Oct–Dec 2023).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">2021–2024</span>
+          <div>
+            <strong>City of Ljubljana Study Scholarship</strong>: Scholarship for talented students.
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">2021</span>
+          <div>
+            <strong>EUTOPIA Undergraduate Research Support Scheme Grant</strong>: Awarded for the research project <em>"The Concept of Gestalt in Merleau-Ponty’s Philosophy"</em> (June–Aug 2021).
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Visits -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Research Visits</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2026</span>
+          <div>
+            <strong>University of Johannesburg, South Africa</strong>: Visit to the African Center for Epistemology and Philosophy of Science (Feb 23–28, 2026).
+          </div>
+        </div>
+        <div class="cv-list-item cv-detail-only">
+          <span class="cv-list-marker">2023</span>
+          <div>
+            <strong>Ruhr-University Bochum, Germany</strong>: Visit to the Reasoning, Rationality and Science Group to work with Dunja Šešelja and Christian Straßer (Sep–Dec 2023).
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Work -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Editorial Work</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">2024–Present</span>
+          <div>
+            <strong>Editorial Assistant</strong>, <em>Acta Analytica</em> (Springer).
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organizational Activities -->
+    <section class="cv-section cv-detail-only">
+      <h2 class="cv-section-title">Organizational Activities</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Dec 2025</span>
+          <div>
+            <strong>Workshop Organization</strong>, <em>"The Legacy of the Vienna Circle a Century On"</em>, Maribor, Slovenia (Dec 4–5, 2025, 15 participants).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Nov 2025</span>
+          <div>
+            <strong>Workshop Organization</strong>, <em>"Philosophy Students’ Symposium 2025"</em>, Maribor, Slovenia (Nov 18, 2025, 15 participants).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Jun 2025</span>
+          <div>
+            <strong>Conference Organization</strong>, <em>"Bled Philosophy Conference 2025"</em>, Bled, Slovenia (June 2–6, 2025, 60 participants).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">May 2025</span>
+          <div>
+            <strong>Conference Organization</strong>, <em>"Nenad in Our Minds"</em>, Maribor, Slovenia (May 27–28, 2025, 20 participants).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Nov 2024</span>
+          <div>
+            <strong>Workshop Organization</strong>, <em>"Philosophy Students’ Symposium 2024"</em>, Maribor, Slovenia (Nov 19–20, 2024, 15 participants).
+          </div>
+        </div>
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Oct 2024</span>
+          <div>
+            <strong>Workshop Organization</strong>, <em>"Methodological Trends and Challenges in Contemporary Philosophy"</em>, Ljubljana, Slovenia (Oct 25–26, 2024, 15 participants).
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Peer Review -->
+    <section class="cv-section cv-detail-only">
+      <h2 class="cv-section-title">Peer Review</h2>
+      <div class="cv-listings">
+        <div class="cv-list-item">
+          <span class="cv-list-marker">Journals</span>
+          <div>
+            Episteme, Social Epistemology, Pacific Philosophical Quarterly, Kriterion, Philosophia.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Information -->
+    <section class="cv-section">
+      <h2 class="cv-section-title">Other Information</h2>
+      <div class="cv-grid">
+        <div>
+          <h3 class="cv-subheading">Languages</h3>
+          <p class="cv-text">Slovenian (Native), English (Fluent), German (Basic).</p>
+        </div>
+        <div class="cv-margin-top-mobile">
+          <h3 class="cv-subheading">Computer Skills</h3>
+          <p class="cv-text">LaTeX (Proficient), MS Office (Proficient), Python (Intermediate).</p>
+        </div>
+      </div>
+      <div class="cv-detail-only" style="margin-top: 1rem;">
+        <h3 class="cv-subheading">Interests</h3>
+        <p class="cv-text">Literature, Writing, Cooking, Movies.</p>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<script>
+  const setupCVToggle = () => {
+    const btnSummary = document.getElementById('mode-summary');
+    const btnFull = document.getElementById('mode-full');
+    const cvRoot = document.getElementById('cv-root');
+    if (!btnSummary || !btnFull || !cvRoot) return;
+
+    const showSummary = () => {
+      btnSummary.classList.add('active');
+      btnSummary.setAttribute('aria-pressed', 'true');
+      btnFull.classList.remove('active');
+      btnFull.setAttribute('aria-pressed', 'false');
+      cvRoot.classList.remove('show-full-cv');
+    };
+
+    const showFull = () => {
+      btnFull.classList.add('active');
+      btnFull.setAttribute('aria-pressed', 'true');
+      btnSummary.classList.remove('active');
+      btnSummary.setAttribute('aria-pressed', 'false');
+      cvRoot.classList.add('show-full-cv');
+    };
+
+    btnSummary.addEventListener('click', showSummary);
+    btnFull.addEventListener('click', showFull);
+  };
+
+  setupCVToggle();
+  document.addEventListener('astro:after-swap', setupCVToggle);
+</script>
+
+<style>
+  .cv-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .page-title {
+    font-family: 'Inter', -apple-system, sans-serif !important;
+    font-size: 1.15rem;
+    margin: 0;
+    letter-spacing: 0.12em;
+    text-transform: none;
+  }
+
+  .cv-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  /* Typewriter Mode Selector */
+  .mode-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+  }
+
+  .mode-btn {
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.1s ease;
+  }
+
+  .mode-btn.active {
+    color: var(--text-primary);
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .mode-btn:hover {
+    color: var(--text-primary);
+  }
+
+  .mode-separator {
+    color: var(--text-muted);
+  }
+
+  /* PDF Print Link */
+  .pdf-btn {
+    background: none;
+    border: none;
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .pdf-btn:hover {
+    text-decoration: underline;
+  }
+
+  /* Standard Professional CV Typography Override */
+  .cv-paper {
+    font-family: Georgia, Garamond, "Times New Roman", serif;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    padding: 0.5rem 0;
+  }
+
+  .cv-paper p {
+    text-align: left;
+    text-indent: 0 !important; /* No paragraph indents for standard CVs */
+    margin: 0 0 0.4rem 0;
+  }
+
+  .cv-meta-info {
+    margin-bottom: 2rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-family: inherit;
+  }
+
+  .cv-meta-info p {
+    margin: 0 0 0.15rem 0;
+  }
+
+  /* CV Sections */
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+
+  .cv-section-title {
+    font-family: Georgia, Garamond, serif !important;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color); /* Faint rule under headers */
+    padding-bottom: 0.25rem;
+  }
+
+  .cv-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .cv-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .cv-subheading {
+    font-family: Georgia, Garamond, serif !important;
+    font-size: 0.95rem;
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-weight: bold;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+  }
+
+  .cv-text {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 639px) {
+    .cv-margin-top-mobile {
+      margin-top: 0.8rem;
+    }
+  }
+
+  /* CV Timeline */
+  .cv-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cv-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  @media (min-width: 640px) {
+    .cv-entry {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+
+  .cv-entry-date {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    min-width: 6.5rem;
+  }
+
+  .cv-entry-title {
+    font-family: Georgia, Garamond, serif !important;
+    font-size: 0.95rem;
+    margin: 0;
+    font-weight: bold;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+  }
+
+  .cv-entry-location {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 0;
+  }
+
+  .cv-entry-details {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0.15rem 0 0 0;
+  }
+
+  /* CV Listings */
+  .cv-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .cv-list-item {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    align-items: flex-start;
+  }
+
+  .cv-list-marker {
+    color: var(--text-muted);
+    font-weight: bold;
+    min-width: 6.5rem;
+    flex-shrink: 0;
+  }
+
+  /* Toggle CV Visibility */
+  .cv-detail-only {
+    display: none;
+  }
+
+  :global(.show-full-cv) .cv-detail-only {
+    display: block !important;
+  }
+  
+  :global(.show-full-cv) div.cv-detail-only.cv-list-item {
+    display: flex !important;
+  }
+
+  .print-only {
+    display: none;
+  }
+
+  /* Print Media */
+  @media print {
+    .print-only {
+      display: block;
+    }
+    
+    .print-header {
+      text-align: left;
+      margin-bottom: 1.5rem;
+      border-bottom: 0.75pt solid #000000;
+      padding-bottom: 0.5rem;
+    }
+
+    .print-name {
+      font-size: 14pt;
+      font-weight: bold;
+      letter-spacing: 0.15em;
+    }
+
+    .print-contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.2rem 1.5rem;
+      font-size: 8.5pt;
+      color: #333333;
+      margin-top: 0.4rem;
+    }
+
+    .cv-section {
+      page-break-inside: avoid;
+      margin-bottom: 1.5rem;
+    }
+
+    .cv-section-title {
+      font-size: 9.5pt;
+      margin-bottom: 8pt;
+      border-bottom: 0.75pt solid #000000 !important;
+    }
+
+    .cv-subheading {
+      font-size: 9pt;
+    }
+
+    .cv-entry-title {
+      font-size: 9pt;
+    }
+
+    .cv-entry-date {
+      font-size: 8.5pt;
+      min-width: 75pt;
+    }
+
+    .cv-list-marker {
+      min-width: 75pt;
+    }
+
+    .cv-entry-location {
+      color: #333333;
+    }
+
+    a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
+  }
+</style>

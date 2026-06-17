@@ -1,0 +1,137 @@
+---
+import Layout from './Layout.astro';
+
+const { frontmatter } = Astro.props;
+const { title, description, date, readingTime } = frontmatter;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<Layout title={`${title} | Martin`} description={description}>
+  <article class="essay-article">
+    <header class="essay-header">
+      <div class="essay-meta">
+        <span class="essay-date">{formattedDate}</span>
+        {readingTime && <span class="essay-meta-divider">•</span> <span class="essay-reading-time">{readingTime}</span>}
+      </div>
+      <h1 class="essay-title">{title}</h1>
+      {description && <p class="essay-description">{description}</p>}
+      <div class="essay-title-divider"></div>
+    </header>
+    
+    <div class="essay-content">
+      <slot />
+    </div>
+
+    <footer class="essay-footer no-print">
+      <a href="/public-philosophy" class="back-link">← Back to writing</a>
+    </footer>
+  </article>
+</Layout>
+
+<style is:global>
+  .essay-article {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
+  .essay-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .essay-meta {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .essay-meta-divider {
+    margin: 0 0.5rem;
+  }
+
+  .essay-title {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.05em;
+  }
+
+  .essay-description {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 580px;
+  }
+
+  .essay-title-divider {
+    width: 60px;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 2rem auto 0 auto;
+  }
+
+  /* Core Markdown Typography - matches global print standard */
+  .essay-content p {
+    margin: 0;
+    text-align: left;
+  }
+
+  .essay-content p + p {
+    text-indent: 2.2rem;
+  }
+
+  .essay-content h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .essay-content blockquote {
+    font-style: italic;
+    margin: 1.5rem 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--text-muted);
+    color: var(--text-muted);
+  }
+
+  .essay-content blockquote p {
+    text-indent: 0;
+  }
+
+  .essay-content ul, .essay-content ol {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .essay-content li {
+    margin-bottom: 0.4rem;
+  }
+
+  .essay-footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+
+  .back-link {
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+</style>

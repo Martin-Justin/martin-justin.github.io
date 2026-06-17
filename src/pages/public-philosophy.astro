@@ -1,0 +1,149 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Import all markdown posts in src/pages/posts/
+const localPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })) as any[];
+
+const sortedPosts = localPosts
+  .filter(post => !post.frontmatter.draft)
+  .sort((a, b) => {
+    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime();
+  });
+
+const externalWritings = [
+  {
+    title: "Med resnico in skladnostjo: vloga koherence v znanstvenem raziskovanju",
+    venue: "Alternator",
+    date: "2024-11-20",
+    url: "https://www.alternator.science/sl/daljse/med-resnico-in-skladnostjo-vloga-koherence-v-znanstvenem-raziskovanju/"
+  }
+];
+---
+
+<Layout title="Writing | Martin" description="Essays, blog posts, and public philosophy writings by Martin.">
+  <h1 class="page-title">Writing & Public Philosophy</h1>
+  
+  <p class="intro-paragraph">
+    Essays, notes, and observations at the intersection of philosophy of science, technology, and epistemology. This section includes both articles written directly for this site and links to essays published elsewhere.
+  </p>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">I.</span>Recent Essays</h2>
+    {sortedPosts.length > 0 ? (
+      <div class="posts-list">
+        {sortedPosts.map((post, index) => {
+          const idxString = `[${String(sortedPosts.length - index).padStart(2, '0')}]`;
+          const formattedDate = new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+          return (
+            <article class="post-item">
+              <span class="post-num">{idxString}</span>
+              <div class="post-content">
+                <h3 class="post-title">
+                  <a href={post.url}>{post.frontmatter.title}</a>
+                </h3>
+                <p class="post-meta">
+                  Published on <span class="post-date">{formattedDate}</span> {post.frontmatter.readingTime && `• ${post.frontmatter.readingTime}`}
+                </p>
+                {post.frontmatter.description && <p class="post-desc">{post.frontmatter.description}</p>}
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    ) : (
+      <p class="post-desc" style="font-style: italic; color: var(--text-muted); margin-top: 0.5rem;">Essays and notes will be published here.</p>
+    )}
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">II.</span>External Publications</h2>
+    <div class="posts-list">
+      {externalWritings.map((item, index) => {
+        const idxString = `[${String(externalWritings.length - index).padStart(2, '0')}]`;
+        const formattedDate = new Date(item.date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+        return (
+          <article class="post-item">
+            <span class="post-num">{idxString}</span>
+            <div class="post-content">
+              <h3 class="post-title">
+                <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+              </h3>
+              <p class="post-meta">
+                Published in <em>{item.venue}</em> • <span class="post-date">{formattedDate}</span>
+              </p>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.15em;
+  }
+
+  .intro-paragraph {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .posts-list {
+    margin-top: 1rem;
+  }
+
+  .post-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .post-num {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 700;
+    min-width: 1.8rem;
+    padding-top: 0.15rem;
+  }
+
+  .post-title {
+    font-size: 1.05rem;
+    margin: 0 0 0.15rem 0;
+    letter-spacing: 0.02em;
+  }
+
+  .post-title a {
+    text-decoration: none;
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0 0 0.4rem 0;
+  }
+
+  .post-date {
+    font-weight: 700;
+  }
+
+  .post-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+  }
+</style>

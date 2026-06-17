@@ -1,0 +1,154 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Martin's Personal Academic Portfolio" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <script is:inline>
+      const getTheme = () => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      };
+      if (getTheme() === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body>
+    <header class="no-print">
+      <nav class="main-nav container">
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/research">Research</a>
+          <a href="/cv">CV</a>
+          <a href="/projects">Projects</a>
+          <a href="/public-philosophy">Writing</a>
+          <a href="/kritika">Kritika</a>
+          <button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle">
+            <svg class="sun-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
+            </svg>
+            <svg class="moon-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="no-print">
+      <div class="container">
+        <p>© {new Date().getFullYear()} Martin Justin</p>
+      </div>
+    </footer>
+
+    <script>
+      const setupThemeToggle = () => {
+        const toggle = document.getElementById('theme-toggle');
+        if (!toggle) return;
+        toggle.addEventListener('click', () => {
+          const isDark = document.documentElement.classList.toggle('dark');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      };
+      setupThemeToggle();
+      document.addEventListener('astro:after-swap', setupThemeToggle);
+    </script>
+  </body>
+</html>
+
+<style>
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: color 0.1s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--text-primary);
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.1s ease;
+  }
+
+  .theme-toggle:hover {
+    color: var(--text-primary);
+  }
+
+  .theme-toggle svg {
+    width: 0.95rem;
+    height: 0.95rem;
+    fill: currentColor;
+  }
+
+  :global(.dark) .sun-icon {
+    display: block;
+  }
+  :global(.dark) .moon-icon {
+    display: none;
+  }
+  .sun-icon {
+    display: none;
+  }
+  .moon-icon {
+    display: block;
+  }
+
+  footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+  }
+</style>

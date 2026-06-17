@@ -1,0 +1,152 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const models = [
+  {
+    num: "[01]",
+    title: "ABM_peer_disagreement",
+    stack: "Python",
+    desc: "Agent-based model exploring the interplay between epistemic and zetetic norms in scientific disagreement. Accompanying model for the publication \"The Mix Matters: Exploring the Interplay Between Epistemic and Zetetic Norms in Scientific Disagreement\" (The British Journal for the Philosophy of Science, 2025).",
+    url: "https://github.com/Martin-Justin/ABM_peer_disagreement",
+    linkText: "[GitHub]"
+  },
+  {
+    num: "[02]",
+    title: "CohABM",
+    stack: "Python",
+    desc: "Agent-based model analyzing how cognitive coherence constraints influence scientific inquiry. Accompanying model for the publication \"Coherence as a Constraint on Scientific Inquiry\" (Synthese, 2025).",
+    url: "https://github.com/Martin-Justin/CohABM",
+    linkText: "[GitHub]"
+  }
+];
+
+const otherProjects = [
+  {
+    num: "[01]",
+    title: "lit-blindspot-visualizer",
+    stack: "TypeScript • React • TanStack Start • vis-network",
+    desc: "An interactive citation and literature review visualizer. It ingests reference databases and renders dynamic network graphs to expose potential literature blind spots and citation bubbles in philosophy of science research fields.",
+    url: "https://martin-justin.github.io/lit-blindspot-visualizer/",
+    linkText: "[Live Project]"
+  }
+];
+---
+
+<Layout title="Projects | Martin" description="Simulation, data visualization, and computational social epistemology projects.">
+  <h1 class="page-title">Projects & Code</h1>
+  
+  <p class="intro-paragraph">
+    Code for my computational models and other (side)projects.
+  </p>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">I.</span>Models</h2>
+    <div class="projects-list">
+      {models.map((project) => (
+        <article class="project-item">
+          <div class="project-num">{project.num}</div>
+          <div class="project-content">
+            <h3 class="project-title">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">{project.title}</a>
+            </h3>
+            <p class="project-stack">{project.stack}</p>
+            <p class="project-desc">{project.desc}</p>
+            <div class="project-links">
+              <a href={project.url} target="_blank" rel="noopener noreferrer" class="code-link">{project.linkText}</a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="section-number">II.</span>Other coding projects</h2>
+    <div class="projects-list">
+      {otherProjects.map((project) => (
+        <article class="project-item">
+          <div class="project-num">{project.num}</div>
+          <div class="project-content">
+            <h3 class="project-title">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">{project.title}</a>
+            </h3>
+            <p class="project-stack">{project.stack}</p>
+            <p class="project-desc">{project.desc}</p>
+            <div class="project-links">
+              <a href={project.url} target="_blank" rel="noopener noreferrer" class="code-link">{project.linkText}</a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.15em;
+  }
+
+  .intro-paragraph {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .projects-list {
+    margin-top: 1rem;
+  }
+
+  .project-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .project-num {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 700;
+    min-width: 1.8rem;
+    padding-top: 0.15rem;
+  }
+
+  .project-title {
+    font-size: 1.05rem;
+    margin: 0 0 0.15rem 0;
+    letter-spacing: 0.02em;
+  }
+
+  .project-title a {
+    text-decoration: none;
+  }
+
+  .project-stack {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0 0 0.5rem 0;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .code-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .code-link:hover {
+    text-decoration: underline;
+  }
+</style>
