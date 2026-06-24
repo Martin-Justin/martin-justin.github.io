@@ -2,6 +2,16 @@
   "martin justin": [],
   "knjižne recenzije": [
     {
+      "date": "maj 2026",
+      "title": "Aljoša Harlamov: Dohtar in povodni mož",
+      "links": [
+        {
+          "url": "https://www.ludliteratura.si/knjigarna/revije/419/",
+          "text": "Literatura"
+        }
+      ]
+    },
+    {
       "date": "december 2025",
       "title": "Benjamín Labatut: Maniac",
       "links": [
@@ -166,7 +176,7 @@
       "title": "Tina Vrščaj: Na Klancu",
       "links": [
         {
-          "url": "https://www.ludliteratura.si/knjigarna/revije/379/-380/",
+          "url": "https://www.ludliteratura.si/knjigarna/revije/379-380/",
           "text": "Literatura"
         }
       ]
@@ -176,7 +186,7 @@
       "title": "Irena Svetek: Beli volk",
       "links": [
         {
-          "url": "https://www.ludliteratura.si/knjigarna/revije/377/-378/",
+          "url": "https://www.ludliteratura.si/knjigarna/revije/377-378/",
           "text": "Literatura"
         }
       ]
@@ -226,7 +236,7 @@
       "title": "Ana Schnabl: Plima",
       "links": [
         {
-          "url": "https://www.ludliteratura.si/knjigarna/revije/372/-373/",
+          "url": "https://www.ludliteratura.si/knjigarna/revije/372-373/",
           "text": "Literatura"
         }
       ]
@@ -296,7 +306,7 @@
       "title": "Franjo H. Naji: Ringlšpil",
       "links": [
         {
-          "url": "https://www.ludliteratura.si/knjigarna/revije/367/-368/",
+          "url": "https://www.ludliteratura.si/knjigarna/revije/367-368/",
           "text": "Literatura"
         }
       ]
@@ -755,6 +765,16 @@
     }
   ],
   "eseji in kolumne": [
+    {
+      "date": "junij 2026",
+      "title": "Zatreti nedolžnost",
+      "links": [
+        {
+          "url": "https://www.ludliteratura.si/kritika-komentar/knjigogled/zatreti-nedolznost/",
+          "text": "ludliteratura.si"
+        }
+      ]
+    },
     {
       "date": "oktober 2025",
       "title": "Literatura z drugimi sredstvi",
