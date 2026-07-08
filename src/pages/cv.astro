@@ -92,7 +92,7 @@ import Layout from '../layouts/Layout.astro';
 
     <!-- Publications -->
     <section class="cv-section">
-      <h2 class="cv-section-title">Publications</h2>
+      <h2 class="cv-section-title">Publications<span class="cv-section-subtitle cv-summary-only"> (Selected)</span></h2>
       <div class="cv-listings">
         <div class="cv-list-item">
           <span class="cv-list-marker">2025</span>
@@ -117,7 +117,7 @@ import Layout from '../layouts/Layout.astro';
 
     <!-- Talks / Presentations -->
     <section class="cv-section">
-      <h2 class="cv-section-title">Presentations</h2>
+      <h2 class="cv-section-title">Presentations<span class="cv-section-subtitle cv-summary-only"> (Selected)</span></h2>
       <div class="cv-listings">
         <!-- Summary Mode: top 5 talks -->
         <div class="cv-list-item">
@@ -247,7 +247,7 @@ import Layout from '../layouts/Layout.astro';
 
     <!-- Grants, Scholarships, & Awards -->
     <section class="cv-section">
-      <h2 class="cv-section-title">Grants, Scholarships & Awards</h2>
+      <h2 class="cv-section-title">Grants, Scholarships & Awards<span class="cv-section-subtitle cv-summary-only"> (Selected)</span></h2>
       <div class="cv-listings">
         <div class="cv-list-item">
           <span class="cv-list-marker">2026</span>
@@ -321,7 +321,7 @@ import Layout from '../layouts/Layout.astro';
     </section>
 
     <!-- Organizational Activities -->
-    <section class="cv-section cv-detail-only">
+    <section class="cv-section">
       <h2 class="cv-section-title">Organizational Activities</h2>
       <div class="cv-listings">
         <div class="cv-list-item">
@@ -370,7 +370,7 @@ import Layout from '../layouts/Layout.astro';
     </section>
 
     <!-- Peer Review -->
-    <section class="cv-section cv-detail-only">
+    <section class="cv-section">
       <h2 class="cv-section-title">Peer Review</h2>
       <div class="cv-listings">
         <div class="cv-list-item">
@@ -667,6 +667,22 @@ import Layout from '../layouts/Layout.astro';
   
   :global(.show-full-cv) div.cv-detail-only.cv-list-item {
     display: flex !important;
+  }
+
+  .cv-section-subtitle {
+    font-weight: normal;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-left: 0.5rem;
+  }
+
+  .cv-summary-only {
+    display: inline-block;
+  }
+
+  :global(.show-full-cv) .cv-summary-only {
+    display: none !important;
   }
 
   .print-only {
