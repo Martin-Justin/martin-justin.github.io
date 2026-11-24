@@ -1,22 +1,50 @@
 ---
+// Self-hosted fonts: the same families and weights the site used to load from
+// Google Fonts, now bundled into the build and served from this domain.
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/courier-prime/400.css';
+import '@fontsource/courier-prime/400-italic.css';
+import '@fontsource/courier-prime/700.css';
+import '@fontsource/courier-prime/700-italic.css';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description?: string;
+  lang?: string; // "sl" for the Slovene pages
 }
 
-const { title, description = "Martin's Personal Academic Portfolio" } = Astro.props;
+const {
+  title,
+  description = "Martin Justin, PhD student in philosophy at the University of Maribor, working in philosophy of science and epistemology.",
+  lang = "en",
+} = Astro.props;
+
+// Absolute URLs (built from `site` in astro.config.mjs) for search engines and link previews.
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const imageURL = new URL('/avatar.jpg', Astro.site);
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Link previews (Bluesky, Slack, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Martin Justin" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={imageURL} />
+    <meta name="twitter:card" content="summary" />
     
     <script is:inline>
       const getTheme = () => {
