@@ -39,7 +39,9 @@ const { title, description = "Martin's Personal Academic Portfolio" } = Astro.pr
           <a href="/">Home</a>
           <a href="/research">Research</a>
           <a href="/cv">CV</a>
-          <a href="/projects">Projects</a>
+          <!-- Forces a line break on phones only (see .nav-break below) -->
+          <span class="nav-break" aria-hidden="true"></span>
+          <a href="/projects">Code</a>
           <a href="/public-philosophy">Writing</a>
           <a href="/kritika">Kritika</a>
           <button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle">
@@ -110,15 +112,33 @@ const { title, description = "Martin's Personal Academic Portfolio" } = Astro.pr
     color: var(--text-primary);
   }
 
-  @media (max-width: 480px) {
+  /* Hidden on wider screens: the menu stays on one line. */
+  .nav-break {
+    display: none;
+  }
+
+  /* Phones: two centred rows (Home / Research / CV, then Code / Writing /
+     Kritika / theme toggle), larger text and padded tap targets. */
+  @media (max-width: 600px) {
     .main-nav {
-      padding: 1.5rem 0;
+      padding: 1.75rem 0 1.25rem;
     }
     .nav-links {
-      gap: 0.6rem 1rem;
+      gap: 0.4rem 1.6rem;
+    }
+    .nav-break {
+      display: block;
+      flex-basis: 100%;
+      height: 0;
     }
     .nav-links a {
-      font-size: 0.8rem;
+      font-size: 0.95rem;
+      padding: 0.35rem 0;
+    }
+    /* Extra class so this beats the base .theme-toggle svg rule further down. */
+    .nav-links .theme-toggle svg {
+      width: 1.1rem;
+      height: 1.1rem;
     }
   }
 

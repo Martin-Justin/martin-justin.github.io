@@ -61,7 +61,16 @@ const wip = [
   }
 ];
 
+// Optional `links` field: rendered after the venue line (e.g. a poster PDF in public/posters/).
 const talks = [
+  {
+    date: "Nov 2026",
+    title: "Coherence as a Negative Norm of Evidence Sharing",
+    venue: "Poster, PSA 2026, San Diego, USA (with B. Trpin)",
+    links: [
+      { text: "[Poster PDF]", url: "/posters/psa2026-coherence-negative-norm.pdf" }
+    ]
+  },
   {
     date: "Sep 2026",
     title: "Selective Evidence Sharing and Collective Inquiry",
@@ -252,7 +261,7 @@ const talks = [
   </section>
 
   <section>
-    <h2 class="section-title"><span class="section-number">III.</span>Academic Talks</h2>
+    <h2 class="section-title"><span class="section-number">III.</span>Academic Talks & Posters</h2>
     <div class="talks-list">
       {talks.map((talk, idx) => {
         const talkNum = `[${String(talks.length - idx).padStart(2, '0')}]`;
@@ -262,6 +271,13 @@ const talks = [
             <div class="talk-details">
               <h3 class="talk-title">{talk.title}</h3>
               <p class="talk-meta">{talk.venue} • <span class="talk-date">{talk.date}</span></p>
+              {talk.links && talk.links.length > 0 && (
+                <div class="pub-links talk-links">
+                  {talk.links.map((link) => (
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" class="pub-link">{link.text}</a>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         );
@@ -357,6 +373,10 @@ const talks = [
 
   .talk-date {
     font-weight: 700;
+  }
+
+  .talk-links {
+    margin-top: 0.25rem;
   }
 
   .work-in-progress-empty {
